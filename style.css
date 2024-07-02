@@ -147,62 +147,23 @@ footer {
     }
 }
 
-
-.service-box {
-       background-color: #1a1a1a;
-       color: #FFFFFF;
-       padding: 20px;
-       margin-bottom: 20px;
-       border-radius: 10px;
-       cursor: pointer;
-       transition: transform 0.3s ease;
-   }
-   
-   .service-box:hover {
-       transform: translateY(-5px);
-   }
-   
-   .service-toggle {
-       background-color: #ff4081;
-       color: #FFFFFF;
-       border: none;
-       padding: 10px 20px;
-       font-size: 1rem;
-       cursor: pointer;
-       border-radius: 5px;
-       margin-bottom: 10px;
-   }
-   
-   .service-content {
-       display: none;
-   }
-   
-   .service-content.active {
-       display: block;
-   }
-
-
-   .services-container {
+main {
        display: flex;
        justify-content: space-between;
+       flex-wrap: wrap; /* Para que los elementos puedan envolverse */
        margin-bottom: 20px;
    }
    
    .service-box {
-       flex: 1;
+       flex: 1 1 30%; /* Ajusta el tamaño de cada servicio */
        background-color: #1a1a1a;
        color: #FFFFFF;
        padding: 20px;
-       margin-right: 10px; /* Espacio entre los bloques de servicios */
+       margin-bottom: 20px;
        border-radius: 10px;
        cursor: pointer;
        transition: transform 0.3s ease;
-       max-width: calc(33.33% - 10px); /* Para asegurar que haya espacio entre los bloques */
        box-sizing: border-box; /* Para incluir el padding y border en el ancho total */
-   }
-   
-   .service-box:last-child {
-       margin-right: 0; /* Eliminar el margen derecho del último bloque */
    }
    
    .service-box:hover {
@@ -228,13 +189,9 @@ footer {
        display: block;
    }
    
-   .image-container {
-       margin-top: 20px;
-       text-align: center; /* Centrar la imagen */
-   }
-   
-   .image-container img {
-       max-width: 100%; /* Ajustar la imagen al contenedor */
+   .service-box img {
+       width: 100%; /* Ajusta el tamaño de la imagen al contenedor */
        height: auto;
        border-radius: 10px;
+       margin-bottom: 10px;
    }
