@@ -7,175 +7,142 @@ span{font-size: 2rem;
 color: brown;}9*/
 /* Estilos generales */
 body {
-       font-family: 'Arial', sans-serif;
-       background-color: #121212;
-       color: #FFFFFF;
-       margin: 0;
-       padding: 0;
-       line-height: 1.6;
-   }
-   
-   header {
-       background-color: #1a1a1a;
-       padding: 20px;
-       text-align: center;
-   }
-   
-   header h1 {
-       font-size: 2.5rem;
-       margin: 0;
-   }
-   
-   header h1 span {
-       color: #ff4081;
-   }
-   
-   nav {
-       background-color: #1a1a1a;
-       text-align: center;
-       padding: 10px;
-   }
-   
-   nav a {
-       color: #FFFFFF;
-       text-decoration: none;
-       padding: 10px 20px;
-       font-size: 1.2rem;
-       text-transform: uppercase;
-   }
-   
-   nav a:hover {
-       background-color: #ff4081;
-       color: #121212;
-       border-radius: 5px;
-   }
-   
-   section, main, footer {
-       padding: 20px;
-   }
-   
-   /* Estilos específicos para secciones */
-   section {
-       background-color: #1a1a1a;
-       margin-bottom: 20px;
-       padding: 20px;
-       border-radius: 10px;
-   }
-   
-   section h2 {
-       font-size: 2rem;
-       color: #ff4081;
-       margin-bottom: 10px;
-   }
-   
-   section h3 {
-       font-size: 1.5rem;
-       color: #29b6f6;
-       margin-bottom: 10px;
-   }
-   
-   section p {
-       font-size: 1.1rem;
-   }
-   
-   /* Estilo para el formulario de contacto */
-   form {
-       background-color: #1a1a1a;
-       padding: 20px;
-       border-radius: 10px;
-   }
-   
-   form label {
-       color: #29b6f6;
-       display: block;
-       margin-bottom: 5px;
-   }
-   
-   form input[type="text"], form textarea {
-       background-color: #121212;
-       color: #FFFFFF;
-       border: 1px solid #29b6f6;
-       padding: 10px;
-       margin-bottom: 10px;
-       width: 100%;
-   }
-   
-   form input[type="submit"] {
-       background-color: #ff4081;
-       color: #121212;
-       border: none;
-       padding: 10px 20px;
-       cursor: pointer;
-       font-size: 1.2rem;
-       border-radius: 5px;
-   }
-   
-   form input[type="submit"]:hover {
-       background-color: #ff79b0;
-   }
-   
-   /* Estilos para el footer */
-   footer {
-       background-color: #1a1a1a;
-       text-align: center;
-       padding: 10px;
-       position: fixed;
-       bottom: 0;
-       width: 100%;
-   }
-   
-   /* Media queries para responsive design */
-   @media (max-width: 768px) {
-       header h1 {
-           font-size: 2rem;
-       }
-       
-       nav a {
-           font-size: 1rem;
-       }
-       
-       section h2 {
-           font-size: 1.5rem;
-       }
-       
-       section h3 {
-           font-size: 1.2rem;
-       }
-       
-       form input[type="submit"] {
-           font-size: 1rem;
-       }
-   }
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
 
-   .service-box {
-       background-color: #1a1a1a;
-       color: #FFFFFF;
-       padding: 20px;
-       margin-bottom: 20px;
-       border-radius: 10px;
-       cursor: pointer;
-       transition: transform 0.3s ease;
-   }
-   
-   .service-box:hover {
-       transform: translateY(-5px);
-   }
-   
-   .service-toggle {
-       background-color: #ff4081;
-       color: #FFFFFF;
-       border: none;
-       padding: 10px 20px;
-       font-size: 1rem;
-       cursor: pointer;
-       border-radius: 5px;
-       margin-bottom: 10px;
-   }
-   
-   .service-content {
-       display: none;
-   }
-   
-   .service-content.active {
-       display: block;
-   }
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header h1 span {
+    color: #ff4081;
+}
+
+nav {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #ff4081;
+    color: #121212;
+    border-radius: 5px;
+}
+
+section, main, footer {
+    padding: 20px;
+}
+
+/* Estilos específicos para secciones */
+section {
+    background-color: #1a1a1a;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #ff4081;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    font-size: 1.5rem;
+    color: #29b6f6;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1rem;
+}
+
+/* Estilo para el formulario de contacto */
+form {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    color: #29b6f6;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], form textarea {
+    background-color: #121212;
+    color: #FFFFFF;
+    border: 1px solid #29b6f6;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form input[type="submit"] {
+    background-color: #ff4081;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ff79b0;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media queries para responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    nav a {
+        font-size: 1rem;
+    }
+    
+    section h2 {
+        font-size: 1.5rem;
+    }
+    
+    section h3 {
+        font-size: 1.2rem;
+    }
+    
+    form input[type="submit"] {
+        font-size: 1rem;
+    }
+}
