@@ -7,78 +7,116 @@ span{font-size: 2rem;
 color: brown;}9*/
 /* Estilos generales */
 
-
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #121212;
-    color: #FFFFFF;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    color: black;
 }
-
-header {
-    background-color: #1a1a1a;
-    padding: 20px;
+#portada {
+    background: linear-gradient(135deg, #ffff66, #ffcc66, #ff9966);
     text-align: center;
+    padding: 50px 0;
 }
-
-header h1 {
-    font-size: 2.5rem;
-    margin: 0;
-}
-
-header h1 span {
-    color: #ff4081;
-}
-
-nav {
-    background-color: #1a1a1a;
+#menu {
     text-align: center;
-    padding: 10px;
+    background: #333;
 }
-
-nav a {
-    color: #FFFFFF;
+#menu a {
+    color: white;
     text-decoration: none;
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    text-transform: uppercase;
+    margin: 0 10px;
 }
 
-nav a:hover {
-    background-color: #ff4081;
-    color: #121212;
-    border-radius: 5px;
-}
 
-section, main, footer {
+#contenedor {
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(135deg, #ffff66, #ffcc66, #ff9966); /* Degradado actual */
     padding: 20px;
 }
 
-/* Estilos específicos para secciones */
-section {
-    background-color: #1a1a1a;
-    margin-bottom: 20px;
+#contenedor::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, #66ccff, #6699ff); /* Nuevo degradado para la parte inferior */
+    z-index: -1;
+}
+
+#izquierda,
+#derecha {
+    flex: 1;
+    position: relative;
+    z-index: 1;
+}
+
+#contenedors {
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(135deg, #ffff66, #ffcc66, #ff9966); /* Degradado actual */
     padding: 20px;
-    border-radius: 10px;
 }
 
-section h2 {
-    font-size: 2rem;
-    color: #ff4081;
-    margin-bottom: 10px;
+#contenedors::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, #66ccff, #6699ff); /* Nuevo degradado para la parte inferior */
+    z-index: -1;
 }
 
-section h3 {
-    font-size: 1.5rem;
-    color: #29b6f6;
-    margin-bottom: 10px;
+#derechas,
+#izquierdas {
+    flex: 1;
+    position: relative;
+    z-index: 1;
 }
 
-section p {
-    font-size: 1.1rem;
+#bloc {
+    text-align: center;
+    background: lightblue;
+    padding: 50px;
 }
+
+/* esta parte es la del nombre de portada */
+
+h1 {
+  color: black; font-size: 50px;
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* aqui se esta asiendo la parte del bloc */
+
+#bloc {
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 20px; /* Espaciado interior */
+    margin-top: 20px; /* Margen superior */
+    border-radius: 8px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+#bloc h2 {
+    color: #333; /* Color del título */
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 10px; /* Margen inferior del título */
+}
+
+#bloc p {
+    color: #666; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    line-height: 1.6; /* Altura de línea */
+}
+
 
 /* Estilo para el formulario de contacto */
 form {
@@ -115,85 +153,11 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: #ff79b0;
 }
-
-/* Estilos para el footer */
 footer {
     background-color: #1a1a1a;
     text-align: center;
-    padding: 10px;
+    padding: 0.1px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-
-/* Media queries para responsive design */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
-    }
-    
-    nav a {
-        font-size: 1rem;
-    }
-    
-    section h2 {
-        font-size: 1.5rem;
-    }
-    
-    section h3 {
-        font-size: 1.2rem;
-    }
-    
-    form input[type="submit"] {
-        font-size: 1rem;
-    }
-}
-
-main {
-       display: flex;
-       justify-content: space-between;
-       flex-wrap: wrap; /* Para que los elementos puedan envolverse */
-       margin-bottom: 20px;
-   }
-   
-   .service-box {
-       flex: 1 1 30%; /* Ajusta el tamaño de cada servicio */
-       background-color: #1a1a1a;
-       color: #FFFFFF;
-       padding: 20px;
-       margin-bottom: 20px;
-       border-radius: 10px;
-       cursor: pointer;
-       transition: transform 0.3s ease;
-       box-sizing: border-box; /* Para incluir el padding y border en el ancho total */
-   }
-   
-   .service-box:hover {
-       transform: translateY(-5px);
-   }
-   
-   .service-toggle {
-       background-color: #ff4081;
-       color: #FFFFFF;
-       border: none;
-       padding: 10px 20px;
-       font-size: 1rem;
-       cursor: pointer;
-       border-radius: 5px;
-       margin-bottom: 10px;
-   }
-   
-   .service-content {
-       display: none;
-   }
-   
-   .service-content.active {
-       display: block;
-   }
-   
-   .service-box img {
-       width: 100%; /* Ajusta el tamaño de la imagen al contenedor */
-       height: auto;
-       border-radius: 40px;
-       margin-bottom: 40px;
-   }
