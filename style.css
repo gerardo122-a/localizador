@@ -23,7 +23,7 @@ body {
 
 #portada span {
     font-size: 2rem;
-    color: brown;
+    color: rgb(31, 31, 31);
 }
 
 /* Estilos para el menú */
@@ -33,9 +33,9 @@ body {
 }
 
 #menu a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
+    color: rgb(161, 161, 161);
+    text-decoration: safarIColor;
+    margin: 0 30px;
 }
 
 /* Estilos para las secciones principales */
@@ -139,4 +139,39 @@ footer {
 
 .expandable.expanded {
     max-height: none; /* Mostrar todo el contenido cuando está expandido */
+}
+
+/* este es el primer cudrardo despues de la portada*/
+
+.container-box {
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0; /* Inicialmente oculta el contenedor */
+    transform: translateY(50px); /* Desplaza hacia abajo */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Transiciones suaves */
+}
+
+.container-box.visible {
+    opacity: 1; /* Muestra el contenedor */
+    transform: translateY(0); /* Vuelve a la posición original */
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-item {
+    width: calc(25% - 10px);
+    margin: 5px;
+}
+
+.image-item img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
 }
