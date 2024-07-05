@@ -17,3 +17,18 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+ // este codigo es lo de rota los nombres de freelancer
+document.addEventListener('DOMContentLoaded', function () {
+    const textElement = document.getElementById('animatedText');
+    const texts = ['[youtuber]', '[bloggero]','[Programador]'];
+    let index = 0;
+  
+    function changeText() {
+      textElement.textContent = texts[index];
+      index = (index + 1) % texts.length;
+    }
+  
+    setInterval(changeText, 3000); // Cambia el texto cada 5 segundos (5000 milisegundos)
+  });
+
