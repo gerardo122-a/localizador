@@ -18,17 +18,25 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
- // este codigo es lo de rota los nombres de freelancer
-document.addEventListener('DOMContentLoaded', function () {
-    const textElement = document.getElementById('animatedText');
-    const texts = ['[youtuber]', '[bloggero]','[Programador]'];
-    let index = 0;
-  
-    function changeText() {
-      textElement.textContent = texts[index];
-      index = (index + 1) % texts.length;
-    }
-  
-    setInterval(changeText, 3000); // Cambia el texto cada 5 segundos (5000 milisegundos)
-  });
+ //linea de codigo para el cambio9 de nombre de freelancer
 
+    document.addEventListener('DOMContentLoaded', function () {
+        // Espera a que el DOM esté completamente cargado
+    
+        // Selecciona el elemento span dentro de #portada
+        const spanElement = document.querySelector('#portada span');
+    
+        // Define un array de textos que quieres mostrar
+        const texts = ['Freelance Designer', 'Desarrollador Web', 'Experto en UX/UI'];
+    
+        let index = 0;
+    
+        function changeText() {
+            // Cambia el texto del span por el texto en la posición actual de texts
+            spanElement.textContent = texts[index];
+            index = (index + 1) % texts.length;
+        }
+    
+        // Ejecuta la función changeText cada 3 segundos (3000 milisegundos)
+        setInterval(changeText, 2000);
+    });
