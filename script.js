@@ -82,3 +82,36 @@ document.addEventListener('DOMContentLoaded', function() {
     // Escucha el evento de scroll para activar la animación
     window.addEventListener("scroll", animateOnScroll);
 });
+
+
+
+// se hace el carrusel de imagenes marca gerardo sac xd
+
+document.addEventListener("DOMContentLoaded", function() {
+    const carouselSlide = document.querySelector(".carousel-slide");
+    const images = document.querySelectorAll(".carousel-slide img");
+  
+    // Configuración de variables
+    let counter = 1;
+    const slideWidth = images[0].clientWidth; // Ancho de una imagen (todas deben tener el mismo ancho)
+  
+    // Inicia la transición del carrusel
+    setInterval(() => {
+      carouselSlide.style.transition = "transform 0.5s ease-in-out";
+      carouselSlide.style.transform = `translateX(${-slideWidth * counter}px)`;
+  
+      // Incrementa el contador para pasar a la siguiente imagen
+      counter++;
+  
+      // Reinicia el carrusel al final de las imágenes
+      if (counter === images.length) {
+        setTimeout(() => {
+          carouselSlide.style.transition = "none";
+          carouselSlide.style.transform = `translateX(0)`;
+          counter = 1;
+        }, 1500); // Tiempo de espera antes de reiniciar el carrusel
+      }
+    }, 3000); // Intervalo de cambio de imagen (3000ms = 3 segundos)
+  });
+
+

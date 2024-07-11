@@ -28,14 +28,48 @@ body {
 
 /* Estilos para el menú */
 #menu {
-    text-align: center;
     background-color: #333;
+    padding: 10px;
+    display: flex; /* Para alinear los enlaces horizontalmente */
+    justify-content: center; /* Centra horizontalmente los enlaces */
 }
 
 #menu a {
-    color: rgb(161, 161, 161);
-    text-decoration: safarIColor;
-    margin: 0 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones */
+}
+
+#menu a:hover {
+    background: linear-gradient(135deg, #ffff66, #ffcc66, #ff9966);
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /* Estilos para las secciones principales */
@@ -124,12 +158,19 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 3px ;
     position: fixed;
     bottom: 0;
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
+
+#tercero
+{
+background: linear-gradient(135deg, #ffffff, #000000);
+}
+/* el tercero solo es esta parte de fondo de los demas pero 
+falta color al diseño web u aplicacipmnes */
 
 .expandable {
     max-height: 100px; /* Altura máxima inicial */
@@ -144,10 +185,11 @@ footer {
 /* este es el primer cudrardo despues de la portada*/
 
 .container-box {
-    border: 2px solid #ccc;
+    border: 2px solid #1b1a1a;
     border-radius: 20px;
-    padding: 20px;
-    max-width: 700px;
+    padding: 30px;
+    max-width:110vh;
+    height: 05vh;
     margin: 0 auto;
     opacity: 0; /* Inicialmente oculta el contenedor */
     transform: translateY(50px); /* Desplaza hacia abajo */
@@ -157,7 +199,14 @@ footer {
 .container-box.visible {
     opacity: 1; /* Muestra el contenedor */
     transform: translateY(0); /* Vuelve a la posición original */
+    
 }
+
+#segundo{
+    background-color: #f1b63f;
+}
+
+
 
 .image-grid {
     display: flex;
@@ -183,7 +232,7 @@ footer {
 
  /*  biografia */
  #biografia {
-    background-color: #fff;
+    background: linear-gradient(135deg, #ffffff, #000000);
     padding: 40px 0;
 }
 
@@ -256,3 +305,92 @@ footer {
         transform: translateY(0);
     }
 }
+
+
+  /* se agrega 3 cartas con hover*/
+
+  .card {
+	width: 300px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin: 20px;
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+	position: relative; /* Añadido para posicionar la imagen */
+  }
+  
+  .card img {
+	width: 100%;
+   
+	display: block;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+  }
+  
+  .card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-content {
+	padding: 20px;
+  }
+  
+  .card-content h3 {
+	margin-top: 0;
+	color: #333;
+  }
+  
+  .card-content p {
+	color: #666;
+	line-height: 1.5;
+  }
+   #cartass {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+   }
+
+
+
+   /* se hace en carrusel de imagenes consecutivas marca gerardo xd*/
+
+
+#carrusel{
+
+    font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	background-color: #000000;
+}
+   .carousel-container {
+      position: relative;
+      max-width: 800px; /* Ajusta el ancho máximo del carrusel según tus necesidades */
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    .carousel-slide {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-slide a {
+      flex: 0 0 auto;
+      width: 100%; /* Ajusta el ancho de cada imagen según tu diseño */
+      display: block;
+    }
+
+   
+
+    
