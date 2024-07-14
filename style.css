@@ -34,43 +34,40 @@ body {
     justify-content: center; /* Centra horizontalmente los enlaces */
 }
 
-#menu a {
+#menu a{
     color: #fff;
     text-decoration: none;
     margin-right: 10px;
+    
     padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones */
+    text-transform: uppercase;
 }
 
 #menu a:hover {
     background: linear-gradient(135deg, #ffff66, #ffcc66, #ff9966);
     cursor: pointer;
 }
-
-.dropdown {
-    position: relative;
+nav ul{
+    float: right;
+    margin-right: 20px;
 }
 
-.dropdown-content {
+nav ul li{
+    display: inline-block;
+}
+
+
+#check{
     display: none;
-    position: absolute;
-    background-color: #333;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
 
-.dropdown-content a {
-    color: #fff;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+.checkbtn {
+    display: none;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+
 
 /* Estilos para las secciones principales */
 section, main {
@@ -393,4 +390,64 @@ falta color al diseño web u aplicacipmnes */
 
    
 
-    
+    @media screen and (max-width: 780px) {
+        /* Aquí va el código CSS para aplicar cuando el ancho de la pantalla sea máximo 600px */
+       
+        .checkbtn {
+            display: block;
+        }
+        
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para el menú */
+            z-index: 1000; /* Asegura que el menú esté encima de otros elementos */
+        }
+        
+        ul {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(135deg, #ffffff, #000000);
+            top: 100%; /* Inicia el menú oculto debajo de la barra de navegación */
+            left: 0;
+            text-align: center;
+            transition: top 0.5s; /* Ajusta la transición para el cambio de posición */
+            list-style-type: none; /* Quita los puntos de la lista */
+            padding: 0;
+            margin: 0;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Agrega sombra */
+        }
+        
+        nav ul li {
+            display: block;
+            margin: 20px 0; /* Ajusta el margen vertical entre elementos de lista */
+            line-height: 40px; /* Ajusta la altura de línea para centrar el texto verticalmente */
+        }
+        
+        nav ul li a:hover,
+        nav ul li a.active {
+            background: none;
+        }
+        
+        /* Ajusta el menú cuando el checkbox está marcado */
+        #check:checked ~ ul {
+            top: 100px; /* Muestra el menú desplazándolo hacia arriba */
+        }
+
+        
+          #cartass {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 180vh;
+            margin: 0;
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+            flex-direction:  column;
+           
+           }
+        
+    }
