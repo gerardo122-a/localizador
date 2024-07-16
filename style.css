@@ -441,7 +441,7 @@ falta color al diseño web u aplicacipmnes */
         
         /* Ajusta el menú cuando el checkbox está marcado */
         #check:checked ~ ul {
-            top: 100px; /* Muestra el menú desplazándolo hacia arriba */
+            top: 45px; /* Muestra el menú desplazándolo hacia arriba */
         }
 
         
