@@ -392,7 +392,15 @@ falta color al diseño web u aplicacipmnes */
 
     @media screen and (max-width: 780px) {
         /* Aquí va el código CSS para aplicar cuando el ancho de la pantalla sea máximo 600px */
-       
+
+
+	      body, html {
+            width: 100%;
+            overflow-x: hidden;
+        }
+
+
+
         .checkbtn {
             display: block;
         }
