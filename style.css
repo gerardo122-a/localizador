@@ -525,6 +525,12 @@ falta color al diseño web u aplicacipmnes */
 
 
 
+        .image-item img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 10px;
+        }
+
 
 
 
