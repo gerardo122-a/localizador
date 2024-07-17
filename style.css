@@ -5,6 +5,7 @@ body {
     font-family: 'Arial', sans-serif;
     color: #333;
     background-color: #f0f0f0;
+    
 }
 
 /* Estilos para la portada */
@@ -155,17 +156,34 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 3px ;
+    padding: 10px,0 ;
     position: fixed;
     bottom: 0;
     width: 100%;
     font-size: 0.6rem;
+    
 }
 
-#tercero
-{
-background: linear-gradient(135deg, #ffffff, #000000);
+
+#tercero {
+    background: linear-gradient(135deg, #ffffff, #000000);
+    padding: 40px 20px; /* Ajusta el padding según sea necesario */
+    text-align: center; /* Centra todo el texto dentro de esta sección */
 }
+
+#tercero h2 {
+    color: #333; /* Color del texto */
+    font-size: 2rem; /* Tamaño de fuente para los títulos */
+    margin-bottom: 20px; /* Espacio inferior para los títulos */
+}
+
+#tercero p {
+    font-size: 1rem; /* Tamaño de fuente para los párrafos */
+    line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
+    color: #555; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior para los párrafos */
+}
+
 /* el tercero solo es esta parte de fondo de los demas pero 
 falta color al diseño web u aplicacipmnes */
 
@@ -178,6 +196,31 @@ falta color al diseño web u aplicacipmnes */
 .expandable.expanded {
     max-height: none; /* Mostrar todo el contenido cuando está expandido */
 }
+
+
+/* aqui va la imagen en circulo despues de  la anucnio de istagram y demas redes*/
+
+.circle-container {
+    width: 150px; /* Ajusta el tamaño del círculo según tus necesidades */
+    height: 150px; /* Ajusta el tamaño del círculo según tus necesidades */
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del círculo */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+    position: relative; /* Permite posicionar la imagen interna de manera absoluta */
+    display: flex; /* Usa flexbox para centrar verticalmente la imagen */
+    justify-content: center; /* Centra horizontalmente la imagen */
+    align-items: center; /* Centra verticalmente la imagen */
+}
+
+.circle-image {
+    width: 100%; /* Asegura que la imagen ocupe todo el contenedor circular */
+    height: auto; /* Permite que la altura se ajuste proporcionalmente */
+    display: block; /* Elimina cualquier espacio adicional debajo de la imagen */
+}
+
+
+
+
 
 /* este es el primer cudrardo despues de la portada*/
 
@@ -202,7 +245,6 @@ falta color al diseño web u aplicacipmnes */
 #segundo{
     background-color: #f1b63f;
 }
-
 
 
 .image-grid {
@@ -303,32 +345,6 @@ falta color al diseño web u aplicacipmnes */
     }
 }
 
-/* aqui va la imagen en circulo despues de  la anucnio de istagram y demas redes*/
-
-.circle-container {
-    width: 150px; /* Ajusta el tamaño del círculo según tus necesidades */
-    height: 150px; /* Ajusta el tamaño del círculo según tus necesidades */
-    border-radius: 50%; /* Hace que el contenedor sea circular */
-    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del círculo */
-    margin: 0 auto; /* Centra horizontalmente el contenedor */
-    position: relative; /* Permite posicionar la imagen interna de manera absoluta */
-    display: flex; /* Usa flexbox para centrar verticalmente la imagen */
-    justify-content: center; /* Centra horizontalmente la imagen */
-    align-items: center; /* Centra verticalmente la imagen */
-}
-
-.circle-image {
-    width: 100%; /* Asegura que la imagen ocupe todo el contenedor circular */
-    height: auto; /* Permite que la altura se ajuste proporcionalmente */
-    display: block; /* Elimina cualquier espacio adicional debajo de la imagen */
-}
-
-
-
-
-
-
-
 
 
 
@@ -421,15 +437,14 @@ falta color al diseño web u aplicacipmnes */
 
     @media screen and (max-width: 780px) {
         /* Aquí va el código CSS para aplicar cuando el ancho de la pantalla sea máximo 600px */
+       
 
-
-	      body, html {
+        body, html {
             width: 100%;
             overflow-x: hidden;
         }
 
-
-
+        
         .checkbtn {
             display: block;
         }
@@ -439,7 +454,7 @@ falta color al diseño web u aplicacipmnes */
             top: 0;
             width: 100%;
             background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para el menú */
-            z-index: 1000; /* Asegura que el menú esté encima de otros elementos */
+            z-index: 100; /* Asegura que el menú esté encima de otros elementos */
         }
         
         ul {
