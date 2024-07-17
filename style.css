@@ -501,5 +501,33 @@ falta color al diseño web u aplicacipmnes */
             flex-direction:  column;
            
            }
+
+
+#biografia {
+            background: linear-gradient(135deg, #000000,#ffffff);
+            padding: 40px 0;
+        }
+
+
+           .biografia {
+            
+            flex-direction: column-reverse; /* Cambia la dirección de flexbox a columna inversa para móviles */
+        }
+    
+        .texto-biografia,
+        .imagen-biografia {
+            width: 100%; /* Asegura que ocupen todo el ancho disponible */
+        }
+    
+        .texto-biografia {
+            padding-right: 0; /* Elimina el padding derecho para móviles */
+        }
+
+
+
+
+
+
+	    
         
     }
