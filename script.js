@@ -115,3 +115,16 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 
+// Función para manejar el desplazamiento suave al hacer clic en los enlaces del menú
+ // Obtén todos los enlaces del menú
+var menuLinks = document.querySelectorAll('#menu ul a');
+
+// Itera sobre cada enlace para agregar un evento de clic
+menuLinks.forEach(function(link) {
+    link.addEventListener('click', function() {
+        // Desmarca el checkbox para cerrar el menú
+        document.getElementById('check').checked = false;
+    });
+});
+
+
