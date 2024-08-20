@@ -2,34 +2,42 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #333;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     
 }
 
 /* Estilos para la portada */
 #portada {
-    background: linear-gradient(135deg, #ffff66, #ffcc66, #ff9966);
+    background: linear-gradient( #ffffff);
     text-align: center;
-    padding: 50px 0;
+    padding: 10px 0;
+    
+}
+
+#portada img {
+    width: 25%; /* La imagen ocupa el 50% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción */
 }
 
 #portada h1 {
     font-size: 3.8rem;
-    font-family: 'Bodoni Moda SC', serif;
-    font-weight: 600;
+    font-family: 'Playfair Display', serif;
     margin-bottom: 10px;
+   
 }
 
 #portada span {
+    font-family: 'Playfair Display', serif;
     font-size: 2rem;
     color: rgb(31, 31, 31);
 }
 
 /* Estilos para el menú */
 #menu {
-    background-color: #333;
+    background-color: #b93e3e;
+    /*background-color: #333;*/
     padding: 10px;
     display: flex; /* Para alinear los enlaces horizontalmente */
     justify-content: center; /* Centra horizontalmente los enlaces */
@@ -39,7 +47,7 @@ body {
     color: #fff;
     text-decoration: none;
     margin-right: 10px;
-    
+    font-family: 'Playfair Display', serif;
     padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones */
@@ -47,7 +55,7 @@ body {
 }
 
 #menu a:hover {
-    background: linear-gradient(135deg, #ffff66, #ffcc66, #ff9966);
+    background: linear-gradient(135deg, #2a2c2c, #455558, #52656d);
     cursor: pointer;
 }
 nav ul{
@@ -102,6 +110,7 @@ section, main {
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Playfair Display', serif;
 }
 
 #contacto h2 {
@@ -113,12 +122,16 @@ section, main {
 form {
     max-width: 600px;
     margin: 0 auto;
+    
+    font-family: 'Montserrat', sans-serif;
 }
 
 form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    
+    font-family: 'Montserrat', sans-serif;
 }
 
 form input[type="text"],
@@ -135,6 +148,7 @@ form textarea {
 
 form textarea {
     height: 100px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 form input[type="submit"] {
@@ -145,6 +159,7 @@ form input[type="submit"] {
     cursor: pointer;
     font-size: 1rem;
     border-radius: 5px;
+    
 }
 
 form input[type="submit"]:hover {
@@ -161,7 +176,7 @@ footer {
     bottom: 0;
     width: 100%;
     font-size: 0.6rem;
-    
+    left: 0;
 }
 
 
@@ -175,6 +190,7 @@ footer {
     color: #333; /* Color del texto */
     font-size: 2rem; /* Tamaño de fuente para los títulos */
     margin-bottom: 20px; /* Espacio inferior para los títulos */
+    
 }
 
 #tercero p {
@@ -182,7 +198,11 @@ footer {
     line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
     color: #555; /* Color del texto */
     margin-bottom: 20px; /* Espacio inferior para los párrafos */
+
+    font-family: 'Montserrat', sans-serif;
 }
+
+#tercero button{ display: none; }
 
 /* el tercero solo es esta parte de fondo de los demas pero 
 falta color al diseño web u aplicacipmnes */
@@ -228,14 +248,17 @@ falta color al diseño web u aplicacipmnes */
     border: 2px solid #1b1a1a;
     border-radius: 20px;
     padding: 30px;
-    max-width:110vh;
-    height: 05vh;
+    max-width: 150vh; /* Ajusta este valor si es necesario */
+    height: 9vh; /* Ajusta este valor si es necesario */
     margin: 0 auto;
     opacity: 0; /* Inicialmente oculta el contenedor */
     transform: translateY(50px); /* Desplaza hacia abajo */
     transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Transiciones suaves */
+    display: flex; /* Utiliza flexbox */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    text-align: center; /* Alinea el texto al centro del contenedor */
 }
-
 .container-box.visible {
     opacity: 1; /* Muestra el contenedor */
     transform: translateY(0); /* Vuelve a la posición original */
@@ -243,25 +266,12 @@ falta color al diseño web u aplicacipmnes */
 }
 
 #segundo{
-    background-color: #f1b63f;
+    background-color: #b93e3e;;
 }
 
 
-.image-grid {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.image-item {
-    width: calc(25% - 10px);
-    margin: 5px;
-}
-
-.image-item img {
-    max-width: 30%;
-    height: auto;
-    border-radius: 10px;
+#segundo h2 {
+    color:  #ffffff; /* Cambia el color del texto a un tono azul */
 }
 
 
@@ -271,12 +281,13 @@ falta color al diseño web u aplicacipmnes */
 
  /*  biografia */
  #biografia {
-    background: linear-gradient(135deg, #ffffff, #000000);
-    padding: 40px 0;
+    background: linear-gradient(135deg, #a7a7a7);
+    padding: 100px 0;
+    font-family: 'Playfair Display', serif;
 }
 
 .biografia-container {
-    max-width: 900px;
+    max-width: 700px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -291,13 +302,10 @@ falta color al diseño web u aplicacipmnes */
 .texto-biografia {
     flex: 1;
     padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; 
 }
 
-.imagen-biografia img {
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
 /* Animación de texto */
 #titulo-biografia {
@@ -325,13 +333,18 @@ falta color al diseño web u aplicacipmnes */
     }
 }
 .imagen-biografia img {
-    max-width: 100%;
+    
+    max-width: 80%;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     opacity: 0;
     transform: translateY(20px);
     animation: fadeIn 1s forwards;
     animation-delay: 1.5s; /* Retraso para que la imagen aparezca después */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+
 }
 
 @keyframes fadeIn {
@@ -387,6 +400,7 @@ falta color al diseño web u aplicacipmnes */
   .card-content p {
 	color: #666;
 	line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
   }
    #cartass {
 
@@ -396,7 +410,7 @@ falta color al diseño web u aplicacipmnes */
     height: 90vh;
     margin: 0;
     background-color: #ffffff;
-    font-family: Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
    }
 
 
@@ -406,14 +420,14 @@ falta color al diseño web u aplicacipmnes */
 
 #carrusel{
 
-    font-family: Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
 	margin: 0;
 	padding: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 10vh;
-	background-color: #000000;
+	background-color: #b93e3e;
 }
    .carousel-container {
       position: relative;
@@ -434,6 +448,27 @@ falta color al diseño web u aplicacipmnes */
     }
 
    
+    #cuadradoss {
+        display: grid;
+        min-height: 50rem;
+        background: rgb(231, 232, 233);
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+        grid-auto-rows: minmax(100px,auto);
+        align-items:stretch ;
+
+       }
+
+    
+
+    .tip2{text-align: center ;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .tip1{background-color: #333131;}
+    .tip3{background-color: #333131;}
+
 
     @media screen and (max-width: 780px) {
         /* Aquí va el código CSS para aplicar cuando el ancho de la pantalla sea máximo 600px */
@@ -445,6 +480,15 @@ falta color al diseño web u aplicacipmnes */
         }
 
         
+        #portada img {
+        width: 10rem; /* La imagen ocupa el 50% del ancho del contenedor */
+        height: auto; /* Mantiene la proporción */
+        }
+
+
+
+
+
         .checkbtn {
             display: block;
         }
@@ -504,8 +548,12 @@ falta color al diseño web u aplicacipmnes */
 
 
 #biografia {
-            background: linear-gradient(135deg, #000000,#ffffff);
+    background-color: #ffffff;
             padding: 40px 0;
+          
+           
+          
+            
         }
 
 
@@ -514,13 +562,19 @@ falta color al diseño web u aplicacipmnes */
             flex-direction: column-reverse; /* Cambia la dirección de flexbox a columna inversa para móviles */
         }
     
-        .texto-biografia,
+        
         .imagen-biografia {
-            width: 100%; /* Asegura que ocupen todo el ancho disponible */
+            width: 50%; /* Asegura que ocupen todo el ancho disponible */
+            display: flex;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
         }
     
         .texto-biografia {
             padding-right: 0; /* Elimina el padding derecho para móviles */
+            text-align: center; /* Centra el texto horizontalmente */
+        
+
         }
 
 
@@ -533,7 +587,7 @@ falta color al diseño web u aplicacipmnes */
 
 
 
-
-	    
-        
+        #tercero button {
+            display: inline; /* O inline, o inline-block, dependiendo de cómo quieras que se muestre el botón */
+        }
     }
