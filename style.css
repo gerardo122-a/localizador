@@ -373,8 +373,12 @@ falta color al diseño web u aplicacipmnes */
 	overflow: hidden;
 	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 	position: relative; /* Añadido para posicionar la imagen */
+    
   }
   
+.card a {text-decoration: none;}
+  
+
   .card img {
 	width: 100%;
    
@@ -403,7 +407,6 @@ falta color al diseño web u aplicacipmnes */
     font-family: 'Montserrat', sans-serif;
   }
    #cartass {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -413,8 +416,7 @@ falta color al diseño web u aplicacipmnes */
     font-family: 'Playfair Display', serif;
    }
 
-
-
+   
    /* se hace en carrusel de imagenes consecutivas marca gerardo xd*/
 
 
@@ -426,48 +428,32 @@ falta color al diseño web u aplicacipmnes */
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 10vh;
-	background-color: #b93e3e;
+	height: 30vh;
+
 }
    .carousel-container {
       position: relative;
-      max-width: 800px; /* Ajusta el ancho máximo del carrusel según tus necesidades */
+      max-width:100rem; /* Ajusta el ancho máximo del carrusel según tus necesidades */
       margin: 0 auto;
       overflow: hidden;
+      
     }
 
     .carousel-slide {
       display: flex;
       transition: transform 0.5s ease-in-out;
+      width: 50rem;  /* Ajusta el ancho según tus necesidades */
+      height: 10rem;  
+      gap: 10rem;
+      
     }
-
-    .carousel-slide a {
-      flex: 0 0 auto;
-      width: 100%; /* Ajusta el ancho de cada imagen según tu diseño */
-      display: block;
-    }
-
-   
-    #cuadradoss {
-        display: grid;
-        min-height: 50rem;
-        background: rgb(231, 232, 233);
-        grid-template-columns: repeat(3,1fr);
-        gap: 1rem;
-        grid-auto-rows: minmax(100px,auto);
-        align-items:stretch ;
-
-       }
 
     
 
-    .tip2{text-align: center ;
-        font-family: 'Montserrat', sans-serif;
+   
 
-    }
+    
 
-    .tip1{background-color: #333131;}
-    .tip3{background-color: #333131;}
 
 
     @media screen and (max-width: 780px) {
@@ -491,7 +477,7 @@ falta color al diseño web u aplicacipmnes */
 
         .checkbtn {
             display: block;
-	    margin-right: auto;
+            margin-right: auto;
         }
         
         nav {
@@ -539,7 +525,8 @@ falta color al diseño web u aplicacipmnes */
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 180vh;
+            height: 229vh;
+            
             margin: 0;
             background-color: #ffffff;
             font-family: Arial, sans-serif;
@@ -547,6 +534,13 @@ falta color al diseño web u aplicacipmnes */
            
            }
 
+
+           
+           .card:hover,
+         .card:active {
+            transform: translateY(-10px);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+           }
 
 #biografia {
     background-color: #ffffff;
@@ -589,6 +583,28 @@ falta color al diseño web u aplicacipmnes */
 
 
         #tercero button {
+          
             display: inline; /* O inline, o inline-block, dependiendo de cómo quieras que se muestre el botón */
         }
+
+        .tip2{text-align: center ;
+            font-family: 'Montserrat', sans-serif;
+          
+        }
+        .tip {
+            width: 5%; /* Ajusta el ancho al 50% del contenedor */
+            height: 5%; /* Mantiene la relación de aspecto original */
+        }
+         
+        .carousel-container {
+            position: relative;
+            max-width:10rem; /* Ajusta el ancho máximo del carrusel según tus necesidades */
+            margin: 0 auto;
+            overflow: scroll;
+            
+          }
+          
+    
+           
+
     }
