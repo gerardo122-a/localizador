@@ -1,0 +1,4802 @@
+[
+  {
+    "Empresa": "ALAS PERUANAS",
+    "Origen": "CHIMBOTE",
+    "Placa": "T1R416",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:20:00",
+    "Salida": "07:43:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALAS PERUANAS",
+    "Origen": "CHIMBOTE",
+    "Placa": "B6W961",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:05:00",
+    "Salida": "07:13:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALLINBUS",
+    "Origen": "CARAZ",
+    "Placa": "D4J957",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:05:00",
+    "Salida": "07:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALLINBUS",
+    "Origen": "CARAZ",
+    "Placa": "F1G962",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:40:00",
+    "Salida": "13:49:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALLINBUS",
+    "Origen": "CHICLAYO",
+    "Placa": "F1R950",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:02:00",
+    "Salida": "05:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALLINBUS",
+    "Origen": "CHICLAYO",
+    "Placa": "B3G963",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:16:00",
+    "Salida": "10:28:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALLINBUS",
+    "Origen": "CHICLAYO",
+    "Placa": "D4J950",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:28:00",
+    "Salida": "08:56:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALLINBUS",
+    "Origen": "CHICLAYO",
+    "Placa": "F1P965",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:53:00",
+    "Salida": "08:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALLINBUS",
+    "Origen": "CHICLAYO",
+    "Placa": "D4J961",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:24:00",
+    "Salida": "07:43:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALLINBUS",
+    "Origen": "CHICLAYO",
+    "Placa": "D4K951",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:04:00",
+    "Salida": "07:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALLINBUS",
+    "Origen": "CHICLAYO",
+    "Placa": "C3H969",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:57:00",
+    "Salida": "07:09:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALLINBUS",
+    "Origen": "HUARAZ",
+    "Placa": "D4J963",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:51:00",
+    "Salida": "09:02:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALLINBUS",
+    "Origen": "HUARAZ",
+    "Placa": "F1F961",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:49:00",
+    "Salida": "06:58:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALLINBUS",
+    "Origen": "TRUJILLO",
+    "Placa": "B3M733",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:28:00",
+    "Salida": "06:39:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALLINBUS",
+    "Origen": "TRUJILLO",
+    "Placa": "A6J951",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:33:00",
+    "Salida": "07:44:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALVARADO",
+    "Origen": "CHICLAYO",
+    "Placa": "T7L358",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:31:00",
+    "Salida": "09:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ALVARADO",
+    "Origen": "CHICLAYO",
+    "Placa": "C3W958",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:12:00",
+    "Salida": "07:28:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "CHICLAYO",
+    "Placa": "F3T954",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:34:00",
+    "Salida": "07:45:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "CHIMBOTE",
+    "Placa": "F3T968",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:05:00",
+    "Salida": "05:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "CHIMBOTE",
+    "Placa": "CPS078",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:07:00",
+    "Salida": "05:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "CHIMBOTE",
+    "Placa": "T4Q961",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:06:00",
+    "Salida": "07:17:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "CHIMBOTE",
+    "Placa": "C3M969",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:26:00",
+    "Salida": "07:44:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "CHIMBOTE",
+    "Placa": "F3S964",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:58:00",
+    "Salida": "07:07:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "CHIMBOTE",
+    "Placa": "CBY497",
+    "Fecha": "02/06/2025",
+    "Entrada": "15:16:00",
+    "Salida": "15:30:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "CHIMBOTE",
+    "Placa": "CJM587",
+    "Fecha": "02/06/2025",
+    "Entrada": "16:31:00",
+    "Salida": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "CHIMBOTE",
+    "Placa": "CPS221",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:15:00",
+    "Salida": "07:32:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "CHIMBOTE",
+    "Placa": "CJM569",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:10:00",
+    "Salida": "07:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "CHIMBOTE",
+    "Placa": "CMH617",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:42:00",
+    "Salida": "06:51:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "CHIMBOTE",
+    "Placa": "T6Q430",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:09:00",
+    "Salida": "06:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "CHIMBOTE",
+    "Placa": "T6Y953",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:17:00",
+    "Salida": "05:27:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "CHIMBOTE",
+    "Placa": "T6K147",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:28:00",
+    "Salida": "05:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "TRUJILLO",
+    "Placa": "CMH389",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:11:00",
+    "Salida": "07:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AMERICA EXPRESS",
+    "Origen": "TRUJILLO",
+    "Placa": "T6Y955",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:55:00",
+    "Salida": "07:05:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ANSHELITUS",
+    "Origen": "CHIMBOTE",
+    "Placa": "C9N954",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:30:00",
+    "Salida": "05:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ANSHELITUS",
+    "Origen": "CHIMBOTE",
+    "Placa": "F3W969",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:50:00",
+    "Salida": "06:59:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ANTEZANA",
+    "Origen": "HUANTA",
+    "Placa": "F5S966",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:29:00",
+    "Salida": "08:56:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "APOCALIPSIS",
+    "Origen": "HUANCAYO",
+    "Placa": "CLX303",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:57:00",
+    "Salida": "05:07:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "APOCALIPSIS",
+    "Origen": "HUANCAYO",
+    "Placa": "C8Q951",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:26:00",
+    "Salida": "05:39:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "APOCALIPSIS",
+    "Origen": "HUANCAYO",
+    "Placa": "D9M965",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:01:00",
+    "Salida": "05:11:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "APOCALIPSIS",
+    "Origen": "HUANCAYO",
+    "Placa": "D2Q951",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:37:00",
+    "Salida": "04:46:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "APOCALIPSIS",
+    "Origen": "HUANCAYO",
+    "Placa": "BTV027",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:50:00",
+    "Salida": "06:15:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AYRA",
+    "Origen": "CERRO DE PASCO",
+    "Placa": "D3R958",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:27:00",
+    "Salida": "04:53:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "AYRA",
+    "Origen": "CHICLAYO",
+    "Placa": "B0N963",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:43:00",
+    "Salida": "10:17:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "BARRANCA MOVIL",
+    "Origen": "BARRANCA",
+    "Placa": "T2Z961",
+    "Fecha": "02/06/2025",
+    "Entrada": "15:17:00",
+    "Salida": "15:23:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CARHUAMAYO PERU",
+    "Origen": "CERRO DE PASCO",
+    "Placa": "C4R959",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:23:00",
+    "Salida": "04:29:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CARHUAMAYO PERU",
+    "Origen": "HUANUCO",
+    "Placa": "VBF966",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:16:00",
+    "Salida": "05:27:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CARHUAMAYO PERU",
+    "Origen": "HUANUCO",
+    "Placa": "T5W956",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:31:00",
+    "Salida": "04:43:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CARHUAMAYO PERU",
+    "Origen": "HUANUCO",
+    "Placa": "D8X967",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:57:00",
+    "Salida": "05:08:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CARHUAMAYO PERU",
+    "Origen": "TINGO MARÍA",
+    "Placa": "F4A964",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:38:00",
+    "Salida": "06:57:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CARHUAMAYO PERU",
+    "Origen": "TINGO MARÍA",
+    "Placa": "C8O960",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:10:00",
+    "Salida": "07:19:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CARHUAMAYO PERU",
+    "Origen": "TOCACHE",
+    "Placa": "VEU954",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:11:00",
+    "Salida": "08:18:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CAVASSA",
+    "Origen": "CHICLAYO",
+    "Placa": "C5D959",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:23:00",
+    "Salida": "04:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CAVASSA",
+    "Origen": "CHICLAYO",
+    "Placa": "D8V953",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:33:00",
+    "Salida": "07:44:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CAVASSA",
+    "Origen": "HUARAZ",
+    "Placa": "CMX173",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:10:00",
+    "Salida": "08:18:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CAVASSA",
+    "Origen": "TRUJILLO",
+    "Placa": "CMX538",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:42:00",
+    "Salida": "08:03:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CAVASSA",
+    "Origen": "TRUJILLO",
+    "Placa": "F1W956",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:15:00",
+    "Salida": "07:32:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CHALLENGER",
+    "Origen": "TALARA",
+    "Placa": "CCR129",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:12:00",
+    "Salida": "10:26:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CHALLENGER",
+    "Origen": "TALARA",
+    "Placa": "CMF135",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:32:00",
+    "Salida": "13:55:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CHICLAYO",
+    "Origen": "CHICLAYO",
+    "Placa": "F5Y965",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:18:00",
+    "Salida": "08:27:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "AREQUIPA",
+    "Placa": "C0W952",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:05:00",
+    "Salida": "13:13:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "CAJAMARCA",
+    "Placa": "D9I966",
+    "Fecha": "02/06/2025",
+    "Entrada": "00:37:00",
+    "Salida": "00:55:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "CAJAMARCA",
+    "Placa": "D1G951",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:43:00",
+    "Salida": "09:53:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "CAJAMARCA",
+    "Placa": "CPG159",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:40:00",
+    "Salida": "10:10:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "CHACHAPOYAS",
+    "Placa": "C6R959",
+    "Fecha": "02/06/2025",
+    "Entrada": "15:45:00",
+    "Salida": "16:10:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "CHICLAYO",
+    "Placa": "D3Q956",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:48:00",
+    "Salida": "08:00:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "CHICLAYO",
+    "Placa": "D3S791",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:10:00",
+    "Salida": "09:18:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "CHICLAYO",
+    "Placa": "D9J955",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:36:00",
+    "Salida": "07:47:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "CHICLAYO",
+    "Placa": "CCI242",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:17:00",
+    "Salida": "08:25:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "CHULUCANAS",
+    "Placa": "CBO538",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:51:00",
+    "Salida": "09:07:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "CUZCO",
+    "Placa": "CFZ382",
+    "Fecha": "02/06/2025",
+    "Entrada": "15:10:00",
+    "Salida": "15:30:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "HUANCAYO",
+    "Placa": "C4N968",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:29:00",
+    "Salida": "05:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "HUARAZ",
+    "Placa": "F6D951",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:37:00",
+    "Salida": "06:45:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "HUARAZ",
+    "Placa": "F4H968",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:57:00",
+    "Salida": "07:06:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "JAEN",
+    "Placa": "D1C955",
+    "Fecha": "02/06/2025",
+    "Entrada": "12:48:00",
+    "Salida": "13:07:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "JAEN",
+    "Placa": "B0O964",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:32:00",
+    "Salida": "13:44:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "MORROPON",
+    "Placa": "C0T964",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:38:00",
+    "Salida": "09:52:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "OLMOS",
+    "Placa": "D9I950",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:43:00",
+    "Salida": "08:52:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "OXAPAMPA",
+    "Placa": "CCH528",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:36:00",
+    "Salida": "07:52:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "PAITA",
+    "Placa": "D3R955",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:57:00",
+    "Salida": "10:46:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "PIURA",
+    "Placa": "CSL199",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:41:00",
+    "Salida": "09:49:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "TACNA",
+    "Placa": "D3X954",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:25:00",
+    "Salida": "09:34:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "TALARA",
+    "Placa": "C0T961",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:34:00",
+    "Salida": "10:45:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "TALARA",
+    "Placa": "B0S965",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:12:00",
+    "Salida": "11:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "TARAPOTO",
+    "Placa": "D9H967",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:29:00",
+    "Salida": "13:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "TRUJILLO",
+    "Placa": "D1G967",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:05:00",
+    "Salida": "06:58:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "TRUJILLO",
+    "Placa": "D7S962",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:40:00",
+    "Salida": "06:46:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "TUMBES",
+    "Placa": "C9Q961",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:34:00",
+    "Salida": "11:46:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "TUMBES",
+    "Placa": "C0V962",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:54:00",
+    "Salida": "15:05:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CIVA",
+    "Origen": "TUMBES",
+    "Placa": "CSM030",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:37:00",
+    "Salida": "13:47:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CONT PACIFICO",
+    "Origen": "CAJAMARCA",
+    "Placa": "F7B969",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:52:00",
+    "Salida": "10:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CONT PACIFICO",
+    "Origen": "CAJAMARCA",
+    "Placa": "CRR354",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:05:00",
+    "Salida": "11:18:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CONT PACIFICO",
+    "Origen": "CAJAMARCA",
+    "Placa": "BXQ211",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:18:00",
+    "Salida": "07:29:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CORVIVAL",
+    "Origen": "CHIMBOTE",
+    "Placa": "VEF961",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:05:00",
+    "Salida": "07:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "CHIMBOTE",
+    "Placa": "T6L431",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:14:00",
+    "Salida": "04:24:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "CHIMBOTE",
+    "Placa": "B6Z961",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:16:00",
+    "Salida": "04:26:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "CHIMBOTE",
+    "Placa": "B0I954",
+    "Fecha": "02/06/2025",
+    "Entrada": "14:05:00",
+    "Salida": "14:23:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "CHIMBOTE",
+    "Placa": "F3D950",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:41:00",
+    "Salida": "08:15:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "CHIMBOTE",
+    "Placa": "CMS327",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:56:00",
+    "Salida": "07:10:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "CHIMBOTE",
+    "Placa": "T6Q963",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:08:00",
+    "Salida": "06:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "CHIMBOTE",
+    "Placa": "F4Q961",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:24:00",
+    "Salida": "05:35:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "CHIMBOTE",
+    "Placa": "T7V969",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:02:00",
+    "Salida": "06:10:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "CHIMBOTE",
+    "Placa": "T7A497",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:11:00",
+    "Salida": "06:22:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "CHIMBOTE",
+    "Placa": "T7C262",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:16:00",
+    "Salida": "06:24:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "CHIMBOTE",
+    "Placa": "T7F254",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:34:00",
+    "Salida": "04:44:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "CHIMBOTE",
+    "Placa": "T5G963",
+    "Fecha": "02/06/2025",
+    "Entrada": "00:07:00",
+    "Salida": "00:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "CHIMBOTE",
+    "Placa": "B6Z965",
+    "Fecha": "02/06/2025",
+    "Entrada": "00:54:00",
+    "Salida": "01:12:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "CHIMBOTE",
+    "Placa": "A0I966",
+    "Fecha": "02/06/2025",
+    "Entrada": "03:12:00",
+    "Salida": "03:34:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "MORO",
+    "Placa": "T7W955",
+    "Fecha": "02/06/2025",
+    "Entrada": "03:41:00",
+    "Salida": "03:58:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "MORO",
+    "Placa": "T7S231",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:41:00",
+    "Salida": "06:50:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL NORTE",
+    "Origen": "TRUJILLO",
+    "Placa": "F2W966",
+    "Fecha": "02/06/2025",
+    "Entrada": "02:10:00",
+    "Salida": "02:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "AREQUIPA",
+    "Placa": "D3P953",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:36:00",
+    "Salida": "13:49:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "AREQUIPA",
+    "Placa": "D2U963",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:18:00",
+    "Salida": "06:27:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "AREQUIPA",
+    "Placa": "D4C953",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:17:00",
+    "Salida": "07:35:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "AYACUCHO",
+    "Placa": "D4B960",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:03:00",
+    "Salida": "09:11:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "CHICLAYO",
+    "Placa": "D4C950",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:22:00",
+    "Salida": "07:32:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "CHICLAYO",
+    "Placa": "Y2L956",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:08:00",
+    "Salida": "09:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "CHIMBOTE",
+    "Placa": "Y2L954",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:22:00",
+    "Salida": "06:31:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "HUANCAYO",
+    "Placa": "D2W963",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:33:00",
+    "Salida": "05:44:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "HUANCAYO",
+    "Placa": "CNO015",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:41:00",
+    "Salida": "05:50:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "HUARAZ",
+    "Placa": "Y2D962",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:34:00",
+    "Salida": "06:43:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "HUARAZ",
+    "Placa": "CNP093",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:13:00",
+    "Salida": "06:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "HUARAZ",
+    "Placa": "CNO299",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:16:00",
+    "Salida": "06:27:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "OXAPAMPA",
+    "Placa": "D4C951",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:12:00",
+    "Salida": "07:23:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "PIURA",
+    "Placa": "D6T964",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:34:00",
+    "Salida": "10:48:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "PIURA",
+    "Placa": "CLW684",
+    "Fecha": "02/06/2025",
+    "Entrada": "14:41:00",
+    "Salida": "14:48:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "PIURA",
+    "Placa": "D2X967",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:53:00",
+    "Salida": "08:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "TRUJILLO",
+    "Placa": "Y2L964",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:11:00",
+    "Salida": "07:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "TRUJILLO",
+    "Placa": "D6U962",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:03:00",
+    "Salida": "07:11:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "TRUJILLO",
+    "Placa": "D3Q951",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:20:00",
+    "Salida": "06:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "TRUJILLO",
+    "Placa": "Y2M952",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:48:00",
+    "Salida": "05:00:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "TRUJILLO",
+    "Placa": "Y2L966",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:15:00",
+    "Salida": "05:30:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "CRUZ DEL SUR",
+    "Origen": "TRUJILLO",
+    "Placa": "Y2L955",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:38:00",
+    "Salida": "05:47:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "DIEZ ASES",
+    "Origen": "CAJAMARCA",
+    "Placa": "C4W964",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:14:00",
+    "Salida": "07:28:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "DIEZ ASES",
+    "Origen": "CAJAMARCA",
+    "Placa": "B8E969",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:36:00",
+    "Salida": "07:52:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "DIEZ ASES",
+    "Origen": "CAJAMARCA",
+    "Placa": "C5L958",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:37:00",
+    "Salida": "09:52:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "DIEZ ASES",
+    "Origen": "TRUJILLO",
+    "Placa": "B5X965",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:04:00",
+    "Salida": "07:13:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "DIVINO SEÑOR",
+    "Origen": "SAN IGNACIO",
+    "Placa": "CMF643",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:24:00",
+    "Salida": "11:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "DORA",
+    "Origen": "CHULUCANAS",
+    "Placa": "B0S969",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:28:00",
+    "Salida": "07:36:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "DORA",
+    "Origen": "PAITA",
+    "Placa": "B0J962",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:10:00",
+    "Salida": "11:26:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EL DORADO",
+    "Origen": "CARAZ",
+    "Placa": "CHM114",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:21:00",
+    "Salida": "06:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EL DORADO",
+    "Origen": "PAIJAN",
+    "Placa": "F1L965",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:58:00",
+    "Salida": "08:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EL DORADO",
+    "Origen": "TRUJILLO",
+    "Placa": "T8E959",
+    "Fecha": "02/06/2025",
+    "Entrada": "03:06:00",
+    "Salida": "03:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EL DORADO",
+    "Origen": "TRUJILLO",
+    "Placa": "T7M512",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:41:00",
+    "Salida": "07:52:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EL DORADO",
+    "Origen": "TRUJILLO",
+    "Placa": "T9N967",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:14:00",
+    "Salida": "07:28:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EL DORADO",
+    "Origen": "TRUJILLO",
+    "Placa": "T6P117",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:55:00",
+    "Salida": "09:03:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EL DORADO",
+    "Origen": "TRUJILLO",
+    "Placa": "T7M488",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:34:00",
+    "Salida": "07:52:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EL DORADO",
+    "Origen": "TRUJILLO",
+    "Placa": "T7B958",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:34:00",
+    "Salida": "07:47:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EL DORADO",
+    "Origen": "TRUJILLO",
+    "Placa": "T7R366",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:09:00",
+    "Salida": "07:17:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EL DORADO",
+    "Origen": "TRUJILLO",
+    "Placa": "T7B957",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:04:00",
+    "Salida": "06:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EL EJECUTIVO",
+    "Origen": "TRUJILLO",
+    "Placa": "T2M952",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:07:00",
+    "Salida": "07:17:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ELEGANT BUS",
+    "Origen": "AYACUCHO",
+    "Placa": "B9M959",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:36:00",
+    "Salida": "07:46:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EMMANUEL BUS",
+    "Origen": "PIURA",
+    "Placa": "A7D725",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:19:00",
+    "Salida": "07:36:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EMMANUEL BUS",
+    "Origen": "TUCUME",
+    "Placa": "CKC321",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:30:00",
+    "Salida": "07:44:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EMP TRANS JIMENEZ",
+    "Origen": "TUCUME",
+    "Placa": "A6Z753",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:23:00",
+    "Salida": "08:39:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EMTRAFESA",
+    "Origen": "CHICLAYO",
+    "Placa": "CKC250",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:10:00",
+    "Salida": "07:18:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EMTRAFESA",
+    "Origen": "CHICLAYO",
+    "Placa": "CMT427",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:40:00",
+    "Salida": "06:57:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EMTRAFESA",
+    "Origen": "TRUJILLO",
+    "Placa": "CKB336",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:10:00",
+    "Salida": "07:19:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EMTRAFESA",
+    "Origen": "TRUJILLO",
+    "Placa": "T8T964",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:16:00",
+    "Salida": "05:27:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ETPOSA",
+    "Origen": "HUANUCO",
+    "Placa": "D0N969",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:20:00",
+    "Salida": "05:30:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EXP NAC CERRO DE PASCO",
+    "Origen": "HUANCAYO",
+    "Placa": "D9Z969",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:43:00",
+    "Salida": "04:53:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EXP NAC CERRO DE PASCO",
+    "Origen": "HUANCAYO",
+    "Placa": "D5O952",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:52:00",
+    "Salida": "05:09:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EXP. JIREH",
+    "Origen": "ABANCAY",
+    "Placa": "C1Z950",
+    "Fecha": "02/06/2025",
+    "Entrada": "12:19:00",
+    "Salida": "12:34:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EXP. JIREH",
+    "Origen": "OLMOS",
+    "Placa": "C6P961",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:57:00",
+    "Salida": "07:07:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EXP. JIREH",
+    "Origen": "OLMOS",
+    "Placa": "B4M954",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:13:00",
+    "Salida": "07:32:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EXP. SUDAMERICANO",
+    "Origen": "OLMOS",
+    "Placa": "BYV098",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:37:00",
+    "Salida": "08:51:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EXP. TOURS ARMONIA",
+    "Origen": "CHURIN (C)",
+    "Placa": "F5N957",
+    "Fecha": "02/06/2025",
+    "Entrada": "15:04:00",
+    "Salida": "15:10:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EXP. TOURS ARMONIA",
+    "Origen": "HUANUCO",
+    "Placa": "D6X968",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:36:00",
+    "Salida": "05:58:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EXP. TOURS ARMONIA",
+    "Origen": "HUANUCO",
+    "Placa": "F1F959",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:27:00",
+    "Salida": "05:21:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EXP. TOURS ARMONIA",
+    "Origen": "TINGO MARÍA",
+    "Placa": "D9V961",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:50:00",
+    "Salida": "07:02:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "EXPRESO 14",
+    "Origen": "HUARAZ",
+    "Placa": "B5B955",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:14:00",
+    "Salida": "06:27:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "FERNANDITA",
+    "Origen": "CHICLAYO",
+    "Placa": "B4T967",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:48:00",
+    "Salida": "09:59:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "GH BUS",
+    "Origen": "CHACHAPOYAS",
+    "Placa": "D8J959",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:11:00",
+    "Salida": "09:24:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "GH BUS",
+    "Origen": "JAEN",
+    "Placa": "D3E951",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:51:00",
+    "Salida": "09:02:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "GM INTERNACIONAL",
+    "Origen": "HUANUCO",
+    "Placa": "W2J965",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:53:00",
+    "Salida": "05:08:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "GM INTERNACIONAL",
+    "Origen": "TINGO MARÍA",
+    "Placa": "W5C386",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:22:00",
+    "Salida": "06:30:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "GONZALES ARIANITA EXPRESS",
+    "Origen": "MARCONA",
+    "Placa": "F1Q956",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:13:00",
+    "Salida": "06:27:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ICHIBAN",
+    "Origen": "CHICLAYO",
+    "Placa": "C7X961",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:28:00",
+    "Salida": "06:41:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INCA ATAHUALPA",
+    "Origen": "CAJAMARCA",
+    "Placa": "V6E968",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:40:00",
+    "Salida": "08:03:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT RODRIGUEZ",
+    "Origen": "CARAZ",
+    "Placa": "D4B950",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:29:00",
+    "Salida": "06:43:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT RODRIGUEZ",
+    "Origen": "CARAZ",
+    "Placa": "C2M953",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:40:00",
+    "Salida": "06:46:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. CRUCERO",
+    "Origen": "CHICLAYO",
+    "Placa": "A6R957",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:37:00",
+    "Salida": "07:53:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. CRUCERO",
+    "Origen": "HUANCAYO",
+    "Placa": "CBA687",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:59:00",
+    "Salida": "05:11:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. CRUCERO",
+    "Origen": "HUANUCO",
+    "Placa": "A0K959",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:56:00",
+    "Salida": "05:09:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. CRUZERO EXPRESS",
+    "Origen": "CHURIN (C)",
+    "Placa": "B0I962",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:07:00",
+    "Salida": "11:13:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. CRUZERO EXPRESS",
+    "Origen": "OYON (C)",
+    "Placa": "C9Z955",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:03:00",
+    "Salida": "09:08:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. CRUZERO EXPRESS",
+    "Origen": "OYON (C)",
+    "Placa": "F7H958",
+    "Fecha": "02/06/2025",
+    "Entrada": "14:00:00",
+    "Salida": "14:08:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. CRUZERO EXPRESS",
+    "Origen": "OYON (C)",
+    "Placa": "B6Z968",
+    "Fecha": "02/06/2025",
+    "Entrada": "15:48:00",
+    "Salida": "15:54:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. RONCO P",
+    "Origen": "CAJAMARCA",
+    "Placa": "CFV526",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:42:00",
+    "Salida": "08:02:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. RONCO P",
+    "Origen": "CHICLAYO",
+    "Placa": "CFU410",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:09:00",
+    "Salida": "07:18:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. RONCO P",
+    "Origen": "FERREÑAFE",
+    "Placa": "D4D959",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:27:00",
+    "Salida": "08:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. RONCO P",
+    "Origen": "MORROPON",
+    "Placa": "CPD678",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:35:00",
+    "Salida": "09:46:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. RONCO P",
+    "Origen": "PIURA",
+    "Placa": "D4D967",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:24:00",
+    "Salida": "09:34:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. RONCO P",
+    "Origen": "PIURA",
+    "Placa": "D6E951",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:35:00",
+    "Salida": "11:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. RONCO P",
+    "Origen": "SULLANA",
+    "Placa": "CPD548",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:01:00",
+    "Salida": "07:11:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. RONCO P",
+    "Origen": "SULLANA",
+    "Placa": "CPD681",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:39:00",
+    "Salida": "08:50:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INT. RONCO P",
+    "Origen": "TUMBES",
+    "Placa": "C9N968",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:37:00",
+    "Salida": "13:50:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "INTERNACIONAL CARLITOS",
+    "Origen": "JAEN",
+    "Placa": "A3C960",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:12:00",
+    "Salida": "13:25:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "CHICLAYO",
+    "Placa": "CPM363",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:26:00",
+    "Salida": "07:44:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "CHICLAYO",
+    "Placa": "D2U967",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:45:00",
+    "Salida": "07:54:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "CHICLAYO",
+    "Placa": "D9E966",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:13:00",
+    "Salida": "09:22:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "CHIMBOTE",
+    "Placa": "CJH688",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:45:00",
+    "Salida": "06:53:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "CHIMBOTE",
+    "Placa": "F5Q955",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:08:00",
+    "Salida": "07:17:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "CHIMBOTE",
+    "Placa": "C9M956",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:21:00",
+    "Salida": "07:37:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "PAITA",
+    "Placa": "BAA105",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:10:00",
+    "Salida": "09:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "PIURA",
+    "Placa": "T5N955",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:05:00",
+    "Salida": "10:47:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "SULLANA",
+    "Placa": "B4U958",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:14:00",
+    "Salida": "11:24:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "TALARA",
+    "Placa": "D8D957",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:48:00",
+    "Salida": "09:59:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "TALARA",
+    "Placa": "CFV045",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:35:00",
+    "Salida": "10:44:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "TRUJILLO",
+    "Placa": "CPM693",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:46:00",
+    "Salida": "07:08:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "TRUJILLO",
+    "Placa": "T4H969",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:51:00",
+    "Salida": "07:58:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "TRUJILLO",
+    "Placa": "CPM562",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:22:00",
+    "Salida": "08:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "TRUJILLO",
+    "Placa": "D0A969",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:19:00",
+    "Salida": "07:36:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "TRUJILLO",
+    "Placa": "D0C957",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:21:00",
+    "Salida": "07:32:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "TUMBES",
+    "Placa": "D8C967",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:03:00",
+    "Salida": "13:12:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "ITTSA",
+    "Origen": "TUMBES",
+    "Placa": "T6V960",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:06:00",
+    "Salida": "11:17:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "JAEN BUS",
+    "Origen": "CHICLAYO",
+    "Placa": "T1G961",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:52:00",
+    "Salida": "10:46:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "JAEN BUS",
+    "Origen": "CHICLAYO",
+    "Placa": "D2G967",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:09:00",
+    "Salida": "07:18:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "JAKSA",
+    "Origen": "ICA",
+    "Placa": "B9V962",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:08:00",
+    "Salida": "06:14:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "JULIO CESAR",
+    "Origen": "HUARAZ",
+    "Placa": "D9M954",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:29:00",
+    "Salida": "06:41:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "JULIO CESAR",
+    "Origen": "HUARAZ",
+    "Placa": "BTM021",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:30:00",
+    "Salida": "06:39:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "JULIO CESAR",
+    "Origen": "HUARAZ",
+    "Placa": "CEW050",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:30:00",
+    "Salida": "07:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "JULIO CESAR",
+    "Origen": "HUARAZ",
+    "Placa": "BZQ696",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:14:00",
+    "Salida": "05:22:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "JULIO CESAR",
+    "Origen": "HUARAZ",
+    "Placa": "F1C950",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:15:00",
+    "Salida": "05:24:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "JULIO CESAR",
+    "Origen": "HUARAZ",
+    "Placa": "CRR550",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:58:00",
+    "Salida": "07:06:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "JULIO CESAR",
+    "Origen": "HUARAZ",
+    "Placa": "D7S969",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:03:00",
+    "Salida": "07:11:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "JULIO CESAR",
+    "Origen": "HUARI",
+    "Placa": "BTM043",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:55:00",
+    "Salida": "07:03:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LATHAMPERU",
+    "Origen": "TRUJILLO",
+    "Placa": "B5X966",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:39:00",
+    "Salida": "06:48:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LATHAMPERU",
+    "Origen": "TRUJILLO",
+    "Placa": "T7Z953",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:02:00",
+    "Salida": "04:11:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LINEA",
+    "Origen": "CHICLAYO",
+    "Placa": "T7M489",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:52:00",
+    "Salida": "08:28:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LINEA",
+    "Origen": "CHICLAYO",
+    "Placa": "T6I468",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:22:00",
+    "Salida": "08:29:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LINEA",
+    "Origen": "CHIMBOTE",
+    "Placa": "C0V967",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:19:00",
+    "Salida": "06:32:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LINEA",
+    "Origen": "HUARAZ",
+    "Placa": "CDP460",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:51:00",
+    "Salida": "05:00:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LINEA",
+    "Origen": "TRUJILLO",
+    "Placa": "C0V969",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:14:00",
+    "Salida": "07:28:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LINEA",
+    "Origen": "TRUJILLO",
+    "Placa": "CDQ209",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:40:00",
+    "Salida": "07:51:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LINEA",
+    "Origen": "TRUJILLO",
+    "Placa": "CRE031",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:28:00",
+    "Salida": "07:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LINEA PERUANA",
+    "Origen": "OXAPAMPA",
+    "Placa": "T6S554",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:11:00",
+    "Salida": "06:21:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LINEA PERUANA",
+    "Origen": "SULLANA",
+    "Placa": "CJG300",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:43:00",
+    "Salida": "10:10:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LINEA PERUANA",
+    "Origen": "SULLANA",
+    "Placa": "T6S259",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:40:00",
+    "Salida": "10:50:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LINEA PERUANA",
+    "Origen": "SULLANA",
+    "Placa": "BXB156",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:26:00",
+    "Salida": "08:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LOBATO",
+    "Origen": "OXAPAMPA",
+    "Placa": "CNI231",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:58:00",
+    "Salida": "07:06:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LOBATO",
+    "Origen": "SAN MARTÍN DE PANGOA",
+    "Placa": "CMD506",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:38:00",
+    "Salida": "08:03:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "LOS HUSARES",
+    "Origen": "TRUJILLO",
+    "Placa": "T9Y954",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:56:00",
+    "Salida": "09:04:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "MOQUEGUA TURISMO",
+    "Origen": "AREQUIPA",
+    "Placa": "VBD290",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:20:00",
+    "Salida": "08:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "AREQUIPA",
+    "Placa": "CNQ449",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:38:00",
+    "Salida": "08:50:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "AREQUIPA",
+    "Placa": "CFW351",
+    "Fecha": "02/06/2025",
+    "Entrada": "14:18:00",
+    "Salida": "14:28:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "AREQUIPA",
+    "Placa": "CNQ556",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:48:00",
+    "Salida": "10:57:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "CHICLAYO",
+    "Placa": "D6F962",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:41:00",
+    "Salida": "06:49:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "CHICLAYO",
+    "Placa": "CNQ531",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:47:00",
+    "Salida": "10:44:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "CHICLAYO",
+    "Placa": "D6D967",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:34:00",
+    "Salida": "09:44:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "CHICLAYO",
+    "Placa": "D4D966",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:45:00",
+    "Salida": "07:53:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "CHICLAYO",
+    "Placa": "D4E957",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:23:00",
+    "Salida": "07:33:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "CUZCO",
+    "Placa": "D4E951",
+    "Fecha": "02/06/2025",
+    "Entrada": "15:03:00",
+    "Salida": "15:22:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "PIURA",
+    "Placa": "F2C953",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:38:00",
+    "Salida": "10:48:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "PIURA",
+    "Placa": "CFW360",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:08:00",
+    "Salida": "10:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "PIURA",
+    "Placa": "D8E959",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:19:00",
+    "Salida": "09:52:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "PIURA",
+    "Placa": "D4E967",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:41:00",
+    "Salida": "06:50:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "TACNA",
+    "Placa": "CFW578",
+    "Fecha": "02/06/2025",
+    "Entrada": "12:00:00",
+    "Salida": "12:11:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "TRUJILLO",
+    "Placa": "CFW554",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:25:00",
+    "Salida": "05:35:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "TRUJILLO",
+    "Placa": "CNQ630",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:06:00",
+    "Salida": "06:26:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "TRUJILLO",
+    "Placa": "CFX252",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:54:00",
+    "Salida": "06:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "TRUJILLO",
+    "Placa": "CNR026",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:16:00",
+    "Salida": "07:26:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "TRUJILLO",
+    "Placa": "D4G952",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:21:00",
+    "Salida": "07:30:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "OLTURSA",
+    "Origen": "TUMBES",
+    "Placa": "D4E968",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:27:00",
+    "Salida": "13:40:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RAPIDO VIP",
+    "Origen": "CARAZ",
+    "Placa": "D7Q967",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:01:00",
+    "Salida": "07:07:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RAPIDO VIP",
+    "Origen": "CARAZ",
+    "Placa": "B7H968",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:26:00",
+    "Salida": "06:43:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RAPIDO VIP",
+    "Origen": "CARAZ",
+    "Placa": "AUV889",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:17:00",
+    "Salida": "07:26:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RARAZ",
+    "Origen": "CERRO DE PASCO",
+    "Placa": "CJK250",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:15:00",
+    "Salida": "04:26:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RARAZ",
+    "Origen": "HUANCAYO",
+    "Placa": "CHZ063",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:58:00",
+    "Salida": "05:11:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RARAZ",
+    "Origen": "HUANCAYO",
+    "Placa": "D7X960",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:10:00",
+    "Salida": "05:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RARAZ",
+    "Origen": "HUANCAYO",
+    "Placa": "F5T963",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:59:00",
+    "Salida": "05:10:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RARAZ",
+    "Origen": "HUANCAYO",
+    "Placa": "D4I968",
+    "Fecha": "02/06/2025",
+    "Entrada": "03:37:00",
+    "Salida": "03:47:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RARAZ",
+    "Origen": "HUANCAYO",
+    "Placa": "CKO412",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:47:00",
+    "Salida": "04:59:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RARAZ",
+    "Origen": "HUANCAYO",
+    "Placa": "C2X957",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:58:00",
+    "Salida": "06:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RARAZ",
+    "Origen": "OXAPAMPA",
+    "Placa": "CPK266",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:15:00",
+    "Salida": "07:25:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RARAZ",
+    "Origen": "OXAPAMPA",
+    "Placa": "CKA438",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:55:00",
+    "Salida": "06:09:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RARAZ",
+    "Origen": "SAN MARTÍN DE PANGOA",
+    "Placa": "CRU484",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:22:00",
+    "Salida": "06:32:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RARAZ",
+    "Origen": "SAN MARTÍN DE PANGOA",
+    "Placa": "CPL081",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:07:00",
+    "Salida": "08:28:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "RARAZ",
+    "Origen": "VILLARICA",
+    "Placa": "CJJ572",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:27:00",
+    "Salida": "05:37:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SAJYBUS",
+    "Origen": "CHICLAYO",
+    "Placa": "F1H966",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:32:00",
+    "Salida": "04:44:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SAJYBUS",
+    "Origen": "CHICLAYO",
+    "Placa": "C0M955",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:38:00",
+    "Salida": "05:50:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SAJYBUS",
+    "Origen": "CHICLAYO",
+    "Placa": "F1L957",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:49:00",
+    "Salida": "07:58:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SALAZAR",
+    "Origen": "HUANCAYO",
+    "Placa": "D4M959",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:53:00",
+    "Salida": "07:02:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SALAZAR",
+    "Origen": "HUANCAYO",
+    "Placa": "T3W966",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:16:00",
+    "Salida": "07:35:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SALAZAR",
+    "Origen": "HUANCAYO",
+    "Placa": "B6Y953",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:30:00",
+    "Salida": "06:08:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SALAZAR",
+    "Origen": "HUANCAYO",
+    "Placa": "B6R955",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:24:00",
+    "Salida": "06:32:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SALAZAR",
+    "Origen": "LA MERCED",
+    "Placa": "F1U952",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:42:00",
+    "Salida": "06:57:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SALAZAR",
+    "Origen": "TARMA",
+    "Placa": "B6Y952",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:28:00",
+    "Salida": "07:15:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SAN MARTIN",
+    "Origen": "HUACHO",
+    "Placa": "D9J960",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:44:00",
+    "Salida": "08:50:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SAN MARTIN",
+    "Origen": "HUACHO",
+    "Placa": "C4M952",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:38:00",
+    "Salida": "07:44:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SAN MARTIN",
+    "Origen": "HUACHO",
+    "Placa": "B0K958",
+    "Fecha": "02/06/2025",
+    "Entrada": "12:59:00",
+    "Salida": "13:05:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SAN MARTIN",
+    "Origen": "HUACHO",
+    "Placa": "D9O966",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:53:00",
+    "Salida": "11:00:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SAN MARTIN",
+    "Origen": "HUACHO",
+    "Placa": "D9H962",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:24:00",
+    "Salida": "09:34:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SAN MARTIN",
+    "Origen": "HUACHO",
+    "Placa": "C4M952",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:10:00",
+    "Salida": "10:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SCHAFT ROADWAYS",
+    "Origen": "HUANUCO",
+    "Placa": "A6H954",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:06:00",
+    "Salida": "05:21:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SCHAFT ROADWAYS",
+    "Origen": "HUANUCO",
+    "Placa": "CRA634",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:23:00",
+    "Salida": "05:37:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SHALOM EXPRESS",
+    "Origen": "HUANCAYO",
+    "Placa": "CPH621",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:28:00",
+    "Salida": "05:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SHALOM EXPRESS",
+    "Origen": "HUANCAYO",
+    "Placa": "D8K969",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:47:00",
+    "Salida": "05:58:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SRA LA MERCED",
+    "Origen": "LA MERCED",
+    "Placa": "CAT475",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:32:00",
+    "Salida": "06:56:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SRA LA MERCED",
+    "Origen": "LA MERCED",
+    "Placa": "C4H966",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:36:00",
+    "Salida": "05:53:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SRA LA MERCED",
+    "Origen": "LA MERCED",
+    "Placa": "C0V964",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:52:00",
+    "Salida": "06:15:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SRA LA MERCED",
+    "Origen": "OXAPAMPA",
+    "Placa": "CCZ656",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:03:00",
+    "Salida": "06:18:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SRA LA MERCED",
+    "Origen": "TARMA",
+    "Placa": "CAD176",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:41:00",
+    "Salida": "05:57:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SRA LA MERCED",
+    "Origen": "TARMA",
+    "Placa": "T7E238",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:42:00",
+    "Salida": "05:53:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SULLANA EXPRESS",
+    "Origen": "LAS LOMAS",
+    "Placa": "BXT071",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:30:00",
+    "Salida": "09:05:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SULLANA EXPRESS",
+    "Origen": "OXAPAMPA",
+    "Placa": "F5J959",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:07:00",
+    "Salida": "05:21:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SULLANA EXPRESS",
+    "Origen": "PAITA",
+    "Placa": "CPP031",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:47:00",
+    "Salida": "09:19:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SULLANA EXPRESS",
+    "Origen": "SAN MARTÍN DE PANGOA",
+    "Placa": "BXR629",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:49:00",
+    "Salida": "07:02:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SULLANA EXPRESS",
+    "Origen": "SAN MARTÍN DE PANGOA",
+    "Placa": "F5J952",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:34:00",
+    "Salida": "07:52:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SULLANA EXPRESS",
+    "Origen": "SULLANA",
+    "Placa": "CJS648",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:18:00",
+    "Salida": "07:35:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SULLANA EXPRESS",
+    "Origen": "SULLANA",
+    "Placa": "BXQ430",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:02:00",
+    "Salida": "07:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SULLANA EXPRESS",
+    "Origen": "SULLANA",
+    "Placa": "CJO176",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:35:00",
+    "Salida": "08:55:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "SULLANA EXPRESS",
+    "Origen": "SULLANA",
+    "Placa": "CAX083",
+    "Fecha": "02/06/2025",
+    "Entrada": "12:07:00",
+    "Salida": "12:21:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "T.S.P",
+    "Origen": "CHULUCANAS",
+    "Placa": "CPX693",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:47:00",
+    "Salida": "05:09:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "T.S.P",
+    "Origen": "MORROPON",
+    "Placa": "CMM280",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:17:00",
+    "Salida": "06:30:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "T.S.P",
+    "Origen": "TARAPOTO",
+    "Placa": "CNF117",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:06:00",
+    "Salida": "09:41:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "T.S.P",
+    "Origen": "TARAPOTO",
+    "Placa": "D8U967",
+    "Fecha": "02/06/2025",
+    "Entrada": "14:09:00",
+    "Salida": "14:26:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TERRAMOVIL",
+    "Origen": "HUANCAYO",
+    "Placa": "B6K967",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:42:00",
+    "Salida": "04:53:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TERRAMOVIL",
+    "Origen": "HUANCAYO",
+    "Placa": "C0S950",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:16:00",
+    "Salida": "05:27:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TERRAMOVIL",
+    "Origen": "LAS LOMAS",
+    "Placa": "C9P961",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:26:00",
+    "Salida": "08:41:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TERRAMOVIL",
+    "Origen": "PAITA",
+    "Placa": "D2L951",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:46:00",
+    "Salida": "08:54:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TERRAMOVIL",
+    "Origen": "SECHURA",
+    "Placa": "A1S792",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:30:00",
+    "Salida": "08:41:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TOURS RODRIGUEZ",
+    "Origen": "CARAZ",
+    "Placa": "CJP131",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:11:00",
+    "Salida": "06:18:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANS IMPERIAL DEL NORTE",
+    "Origen": "TRUJILLO",
+    "Placa": "D4E956",
+    "Fecha": "02/06/2025",
+    "Entrada": "02:50:00",
+    "Salida": "03:00:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANS IMPERIAL DEL NORTE",
+    "Origen": "TRUJILLO",
+    "Placa": "D2Q960",
+    "Fecha": "02/06/2025",
+    "Entrada": "03:40:00",
+    "Salida": "03:58:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANS IMPERIAL DEL NORTE",
+    "Origen": "TRUJILLO",
+    "Placa": "B9C962",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:25:00",
+    "Salida": "06:40:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANS.VIA",
+    "Origen": "TRUJILLO",
+    "Placa": "A8N955",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:37:00",
+    "Salida": "06:44:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANS.VIA",
+    "Origen": "TRUJILLO",
+    "Placa": "D4H967",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:24:00",
+    "Salida": "06:32:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANS.VIA",
+    "Origen": "TRUJILLO",
+    "Placa": "A8N950",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:08:00",
+    "Salida": "07:17:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTE MIRANDA",
+    "Origen": "CHIMBOTE",
+    "Placa": "F2Y956",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:23:00",
+    "Salida": "04:36:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTE MIRANDA",
+    "Origen": "CHIMBOTE",
+    "Placa": "T8A961",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:46:00",
+    "Salida": "05:58:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTE MIRANDA",
+    "Origen": "CHIMBOTE",
+    "Placa": "B7N964",
+    "Fecha": "02/06/2025",
+    "Entrada": "03:25:00",
+    "Salida": "03:34:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES ARY",
+    "Origen": "TRUJILLO",
+    "Placa": "B3Z953",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:05:00",
+    "Salida": "05:21:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES JUDITH",
+    "Origen": "AYACUCHO",
+    "Placa": "CDA077",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:34:00",
+    "Salida": "09:02:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES JUDITH",
+    "Origen": "HUANCAYO",
+    "Placa": "D8T969",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:51:00",
+    "Salida": "05:09:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES JUDITH",
+    "Origen": "HUANCAYO",
+    "Placa": "F3I961",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:56:00",
+    "Salida": "05:09:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES JUDITH",
+    "Origen": "HUANCAYO",
+    "Placa": "VCG958",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:48:00",
+    "Salida": "05:00:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "Y1Y955",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:47:00",
+    "Salida": "05:56:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "Y1M078",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:01:00",
+    "Salida": "07:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "B2W965",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:13:00",
+    "Salida": "07:28:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "A3L954",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:14:00",
+    "Salida": "07:28:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "ZCU958",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:59:00",
+    "Salida": "10:08:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "B2P968",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:46:00",
+    "Salida": "09:06:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "V1J961",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:14:00",
+    "Salida": "09:23:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "C2V959",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:41:00",
+    "Salida": "09:48:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "A3L955",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:42:00",
+    "Salida": "08:03:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "V4U954",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:48:00",
+    "Salida": "08:15:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "D7Z965",
+    "Fecha": "02/06/2025",
+    "Entrada": "12:13:00",
+    "Salida": "12:18:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "A4G967",
+    "Fecha": "02/06/2025",
+    "Entrada": "12:25:00",
+    "Salida": "12:34:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "Y2L951",
+    "Fecha": "02/06/2025",
+    "Entrada": "15:43:00",
+    "Salida": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "B4Y958",
+    "Fecha": "02/06/2025",
+    "Entrada": "16:30:00",
+    "Salida": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "B6R967",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:44:00",
+    "Salida": "13:51:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "B3N952",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:33:00",
+    "Salida": "13:40:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "B3A960",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:00:00",
+    "Salida": "11:06:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "V1I966",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:20:00",
+    "Salida": "11:27:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "Y1X951",
+    "Fecha": "02/06/2025",
+    "Entrada": "14:11:00",
+    "Salida": "14:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "T7Q961",
+    "Fecha": "02/06/2025",
+    "Entrada": "14:43:00",
+    "Salida": "14:49:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES NORTE CHICO",
+    "Origen": "BARRANCA",
+    "Placa": "D7R950",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:49:00",
+    "Salida": "12:00:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES POOL",
+    "Origen": "HUANCAYO",
+    "Placa": "F5W954",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:29:00",
+    "Salida": "06:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES PRIMAVERA",
+    "Origen": "TRUJILLO",
+    "Placa": "B5G955",
+    "Fecha": "02/06/2025",
+    "Entrada": "00:57:00",
+    "Salida": "01:12:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES SAN CRISTOBAL",
+    "Origen": "HUANCAYO",
+    "Placa": "C6O954",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:13:00",
+    "Salida": "05:30:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES TCR EXPRESS",
+    "Origen": "TUMBES",
+    "Placa": "D0M441",
+    "Fecha": "02/06/2025",
+    "Entrada": "00:58:00",
+    "Salida": "01:08:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES Y TURISMO MIBUS",
+    "Origen": "HUANCAYO",
+    "Placa": "C4P960",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:30:00",
+    "Salida": "07:15:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES Y TURISMO MIBUS",
+    "Origen": "HUANCAYO",
+    "Placa": "A3N954",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:04:00",
+    "Salida": "06:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TRANSPORTES Y TURISMO MIBUS",
+    "Origen": "HUANCAYO",
+    "Placa": "B1A963",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:23:00",
+    "Salida": "05:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TUNESA",
+    "Origen": "TRUJILLO",
+    "Placa": "T6M267",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:23:00",
+    "Salida": "07:36:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TUR IMPERIAL",
+    "Origen": "LA MERCED",
+    "Placa": "B6F966",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:18:00",
+    "Salida": "06:31:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TUR IMPERIAL",
+    "Origen": "TARMA",
+    "Placa": "W3V964",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:07:00",
+    "Salida": "05:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TUR SULLANA EXPRESS",
+    "Origen": "SECHURA",
+    "Placa": "D6H954",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:23:00",
+    "Salida": "08:32:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TUR SULLANA EXPRESS",
+    "Origen": "SULLANA",
+    "Placa": "CCX120",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:03:00",
+    "Salida": "07:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TUR. INT. PALOMINO",
+    "Origen": "ABANCAY",
+    "Placa": "CRB557",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:48:00",
+    "Salida": "10:56:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TUR. INT. PALOMINO",
+    "Origen": "ANDAHUAYLAS",
+    "Placa": "BYF612",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:21:00",
+    "Salida": "13:31:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TUR. INT. PALOMINO",
+    "Origen": "AREQUIPA",
+    "Placa": "CRC281",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:23:00",
+    "Salida": "09:32:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TUR. INT. PALOMINO",
+    "Origen": "AYACUCHO",
+    "Placa": "BYG374",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:28:00",
+    "Salida": "08:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TUR. INT. PALOMINO",
+    "Origen": "AYACUCHO",
+    "Placa": "CLA386",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:54:00",
+    "Salida": "10:02:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TUR. INT. PALOMINO",
+    "Origen": "MARCONA",
+    "Placa": "F3Y951",
+    "Fecha": "02/06/2025",
+    "Entrada": "01:15:00",
+    "Salida": "01:30:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TUR. INT. PALOMINO",
+    "Origen": "MARCONA",
+    "Placa": "BUO195",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:44:00",
+    "Salida": "05:54:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TUR. MEGA BUS",
+    "Origen": "HUANCAYO",
+    "Placa": "C4N960",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:24:00",
+    "Salida": "05:37:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "W4Z660",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:37:00",
+    "Salida": "07:53:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "C7R960",
+    "Fecha": "02/06/2025",
+    "Entrada": "15:29:00",
+    "Salida": "15:50:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "Y2A953",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:47:00",
+    "Salida": "07:01:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "B7N963",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:03:00",
+    "Salida": "09:30:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "Y2A962",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:26:00",
+    "Salida": "10:36:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "Y1T950",
+    "Fecha": "02/06/2025",
+    "Entrada": "12:03:00",
+    "Salida": "12:09:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "B7D965",
+    "Fecha": "02/06/2025",
+    "Entrada": "15:15:00",
+    "Salida": "15:21:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "B3Z966",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:24:00",
+    "Salida": "11:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "Y1Z952",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:32:00",
+    "Salida": "11:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "Y1Z965",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:59:00",
+    "Salida": "14:04:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "B2N968",
+    "Fecha": "02/06/2025",
+    "Entrada": "12:59:00",
+    "Salida": "13:10:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "B6C956",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:24:00",
+    "Salida": "13:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "B7J963",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:27:00",
+    "Salida": "13:36:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "Y2A961",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:51:00",
+    "Salida": "07:58:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "Y1P962",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:31:00",
+    "Salida": "08:39:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "B0G961",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:41:00",
+    "Salida": "09:48:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO BARRANCA",
+    "Origen": "BARRANCA",
+    "Placa": "B6K954",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:37:00",
+    "Salida": "09:43:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO CAUTIVO",
+    "Origen": "CHICLAYO",
+    "Placa": "CCX609",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:54:00",
+    "Salida": "07:07:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO CAUTIVO",
+    "Origen": "CHICLAYO",
+    "Placa": "BXA388",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:40:00",
+    "Salida": "05:55:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO CAUTIVO",
+    "Origen": "CHICLAYO",
+    "Placa": "C0P967",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:48:00",
+    "Salida": "05:00:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO CAUTIVO",
+    "Origen": "CHICLAYO",
+    "Placa": "BXZ659",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:29:00",
+    "Salida": "09:05:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO DEL NORTE",
+    "Origen": "CAJAMARCA",
+    "Placa": "C7M968",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:01:00",
+    "Salida": "09:19:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO DEL NORTE",
+    "Origen": "CELENDIN",
+    "Placa": "M3X957",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:52:00",
+    "Salida": "08:15:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO DIAS",
+    "Origen": "CAJAMARCA",
+    "Placa": "BYU530",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:31:00",
+    "Salida": "08:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO DIAS",
+    "Origen": "CAJAMARCA",
+    "Placa": "T5N262",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:48:00",
+    "Salida": "08:59:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO DIAS",
+    "Origen": "CAJAMARCA",
+    "Placa": "T6Q361",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:28:00",
+    "Salida": "07:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO DIAS",
+    "Origen": "CHICLAYO",
+    "Placa": "T5N252",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:23:00",
+    "Salida": "07:37:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO DIAS",
+    "Origen": "TRUJILLO",
+    "Placa": "T6R075",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:51:00",
+    "Salida": "07:02:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO LOS HUSARES",
+    "Origen": "TRUJILLO",
+    "Placa": "T7Q966",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:37:00",
+    "Salida": "06:56:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO LOS HUSARES",
+    "Origen": "TRUJILLO",
+    "Placa": "B0C953",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:39:00",
+    "Salida": "07:54:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO MOLINA UNIÓN",
+    "Origen": "AYACUCHO",
+    "Placa": "C6H163",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:46:00",
+    "Salida": "09:55:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO PARAISO",
+    "Origen": "CHIMBOTE",
+    "Placa": "C3M961",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:52:00",
+    "Salida": "05:03:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO PARAISO",
+    "Origen": "CHIMBOTE",
+    "Placa": "C7O957",
+    "Fecha": "02/06/2025",
+    "Entrada": "04:55:00",
+    "Salida": "05:04:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO PARAISO",
+    "Origen": "CHIMBOTE",
+    "Placa": "C3J950",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:24:00",
+    "Salida": "06:31:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO PARAISO",
+    "Origen": "CHIMBOTE",
+    "Placa": "C4E966",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:19:00",
+    "Salida": "07:36:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO ROSARIO",
+    "Origen": "HUARAZ",
+    "Placa": "C8F957",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:18:00",
+    "Salida": "07:29:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO TACNA INTERNACIONAL",
+    "Origen": "PUCALLPA",
+    "Placa": "D9V951",
+    "Fecha": "02/06/2025",
+    "Entrada": "15:42:00",
+    "Salida": "15:52:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO TACNA INTERNACIONAL",
+    "Origen": "TUMBES",
+    "Placa": "D4F955",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:00:00",
+    "Salida": "07:07:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO TACNA INTERNACIONAL",
+    "Origen": "TUMBES",
+    "Placa": "C9J966",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:12:00",
+    "Salida": "09:18:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO TACNA INTERNACIONAL",
+    "Origen": "TUMBES",
+    "Placa": "D4F963",
+    "Fecha": "02/06/2025",
+    "Entrada": "14:28:00",
+    "Salida": "14:40:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "TURISMO TACNA INTERNACIONAL",
+    "Origen": "TUMBES",
+    "Placa": "D4D965",
+    "Fecha": "02/06/2025",
+    "Entrada": "12:17:00",
+    "Salida": "12:29:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "VIA NORTE",
+    "Origen": "CHICLAYO",
+    "Placa": "C6X962",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:24:00",
+    "Salida": "07:43:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "VIA NORTE",
+    "Origen": "CHICLAYO",
+    "Placa": "C9C960",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:43:00",
+    "Salida": "08:03:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "VIA NORTE",
+    "Origen": "CHICLAYO",
+    "Placa": "C9C958",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:05:00",
+    "Salida": "09:17:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "VIA PACIFICO",
+    "Origen": "CHICLAYO",
+    "Placa": "F4A966",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:47:00",
+    "Salida": "08:01:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "VIA PACIFICO",
+    "Origen": "FERREÑAFE",
+    "Placa": "CAZ699",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:03:00",
+    "Salida": "06:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "VIA PACIFICO",
+    "Origen": "TUMBES",
+    "Placa": "B0O958",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:52:00",
+    "Salida": "11:02:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "VIA PACIFICO EXPRESS",
+    "Origen": "CHICLAYO",
+    "Placa": "F4B951",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:47:00",
+    "Salida": "10:03:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "VIA TOURS",
+    "Origen": "CHICLAYO",
+    "Placa": "A6C950",
+    "Fecha": "02/06/2025",
+    "Entrada": "00:13:00",
+    "Salida": "00:23:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "VIGO TOURS",
+    "Origen": "TUMBES",
+    "Placa": "C8K952",
+    "Fecha": "02/06/2025",
+    "Entrada": "12:19:00",
+    "Salida": "12:34:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "VIRGEN DE CHAPI",
+    "Origen": "ACARI",
+    "Placa": "CLY654",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:53:00",
+    "Salida": "06:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "VIRGEN DE CHAPI",
+    "Origen": "MARCONA",
+    "Placa": "CLZ574",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:45:00",
+    "Salida": "07:00:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "VIRGEN DE CHAPI",
+    "Origen": "MARCONA",
+    "Placa": "CPP164",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:21:00",
+    "Salida": "07:31:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "YAHVEH",
+    "Origen": "OLMOS",
+    "Placa": "B5Z967",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:39:00",
+    "Salida": "09:19:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "CARAZ",
+    "Placa": "F5M968",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:11:00",
+    "Salida": "07:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "CARAZ",
+    "Placa": "B4A951",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:25:00",
+    "Salida": "06:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "C3F953",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:15:00",
+    "Salida": "06:27:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "C2V964",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:25:00",
+    "Salida": "06:30:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "Y1P957",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:57:00",
+    "Salida": "07:02:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "Y1X192",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:04:00",
+    "Salida": "07:13:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "B3G720",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:05:00",
+    "Salida": "07:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "Y1P959",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:32:00",
+    "Salida": "07:42:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "Y1X192",
+    "Fecha": "02/06/2025",
+    "Entrada": "15:19:00",
+    "Salida": "15:30:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "B8W958",
+    "Fecha": "02/06/2025",
+    "Entrada": "15:32:00",
+    "Salida": "15:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "B7O961",
+    "Fecha": "02/06/2025",
+    "Entrada": "16:10:00",
+    "Salida": "16:19:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "CRF665",
+    "Fecha": "02/06/2025",
+    "Entrada": "16:17:00",
+    "Salida": "16:22:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "Y1P960",
+    "Fecha": "02/06/2025",
+    "Entrada": "16:32:00",
+    "Salida": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "Y1P959",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:53:00",
+    "Salida": "13:59:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "Y1S320",
+    "Fecha": "02/06/2025",
+    "Entrada": "14:01:00",
+    "Salida": "14:06:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "Y1W961",
+    "Fecha": "02/06/2025",
+    "Entrada": "14:27:00",
+    "Salida": "14:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "A1O767",
+    "Fecha": "02/06/2025",
+    "Entrada": "15:02:00",
+    "Salida": "15:08:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "C0E968",
+    "Fecha": "02/06/2025",
+    "Entrada": "12:04:00",
+    "Salida": "12:16:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "C5M969",
+    "Fecha": "02/06/2025",
+    "Entrada": "12:24:00",
+    "Salida": "12:33:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "Y1P956",
+    "Fecha": "02/06/2025",
+    "Entrada": "12:46:00",
+    "Salida": "13:01:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "Y2D958",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:02:00",
+    "Salida": "13:09:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "Y1W964",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:32:00",
+    "Salida": "13:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "C7P963",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:41:00",
+    "Salida": "10:55:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "B5B969",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:16:00",
+    "Salida": "10:22:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "B4B958",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:32:00",
+    "Salida": "10:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "B5M956",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:48:00",
+    "Salida": "09:54:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "C0E958",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:04:00",
+    "Salida": "11:11:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "D1R952",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:30:00",
+    "Salida": "11:37:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "B7W966",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:41:00",
+    "Salida": "11:47:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "F6N960",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:59:00",
+    "Salida": "12:06:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "C2T969",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:16:00",
+    "Salida": "09:21:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "Y2D951",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:15:00",
+    "Salida": "09:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "B5B967",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:43:00",
+    "Salida": "07:51:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "C7Z959",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:47:00",
+    "Salida": "08:03:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUACHO",
+    "Placa": "Y1W966",
+    "Fecha": "02/06/2025",
+    "Entrada": "08:35:00",
+    "Salida": "08:40:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUARAL",
+    "Placa": "CRW326",
+    "Fecha": "02/06/2025",
+    "Entrada": "06:42:00",
+    "Salida": "06:49:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUARAL",
+    "Placa": "CKD621",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:27:00",
+    "Salida": "09:31:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUARAL",
+    "Placa": "CRX206",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:39:00",
+    "Salida": "09:46:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUARAL",
+    "Placa": "CRC615",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:42:00",
+    "Salida": "09:47:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUARAL",
+    "Placa": "CRG419",
+    "Fecha": "02/06/2025",
+    "Entrada": "09:54:00",
+    "Salida": "10:00:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUARAL",
+    "Placa": "CRF665",
+    "Fecha": "02/06/2025",
+    "Entrada": "10:01:00",
+    "Salida": "10:47:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUARAL",
+    "Placa": "CRC440",
+    "Fecha": "02/06/2025",
+    "Entrada": "11:49:00",
+    "Salida": "11:54:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUARAL",
+    "Placa": "CRW326",
+    "Fecha": "02/06/2025",
+    "Entrada": "13:31:00",
+    "Salida": "13:38:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUARAL",
+    "Placa": "C2T969",
+    "Fecha": "02/06/2025",
+    "Entrada": "16:11:00",
+    "Salida": "16:19:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUARAZ",
+    "Placa": "F5W960",
+    "Fecha": "02/06/2025",
+    "Entrada": "07:12:00",
+    "Salida": "07:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUARAZ",
+    "Placa": "CPU426",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:29:00",
+    "Salida": "05:37:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Z BUSS",
+    "Origen": "HUARAZ",
+    "Placa": "C2L960",
+    "Fecha": "02/06/2025",
+    "Entrada": "05:08:00",
+    "Salida": "05:20:00",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": "Número Total de Llegadas :",
+    "Origen": 478,
+    "Placa": "Número Total de Desembarques :",
+    "Fecha": "",
+    "Entrada": "",
+    "Salida": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Empresa": 1,
+    "Origen": "",
+    "Placa": "",
+    "Fecha": "",
+    "Entrada": "",
+    "Salida": "",
+    "": "",
+    "__1": ""
+  }
+]

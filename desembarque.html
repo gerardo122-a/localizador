@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla desde JSON</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Datos desde JSON</h2>
+
+  <table id="tabla-datos">
+    <thead>
+      <tr>
+        <th>Empresa</th>
+        <th>Origen</th>
+        <th>Placa</th>
+        <th>Fecha</th>
+        <th>Entrada</th>
+        <th>Salida</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    fetch('csvjson.json')
+      .then(response => response.json())
+      .then(data => {
+        const tbody = document.querySelector('#tabla-datos tbody');
+
+        data.forEach(fila => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${fila.Empresa}</td>
+            <td>${fila.Origen}</td>
+            <td>${fila.Placa}</td>
+            <td>${fila.Fecha}</td>
+            <td>${fila.Entrada}</td>
+            <td>${fila.Salida}</td>
+          `;
+          tbody.appendChild(tr);
+        });
+      })
+      .catch(error => {
+        console.error('Error al cargar el archivo JSON:', error);
+        alert('No se pudo cargar csvjson.json. Asegúrate de usar un servidor local.');
+      });
+  </script>
+
+</body>
+</html>
