@@ -132,23 +132,29 @@ menuLinks.forEach(function(link) {
 // funcion de buscar para el terminal de buses pagina desembarque
 
 
-
 let datosGlobales = [];
 
-// Cargar datos al iniciar
-fetch('csvjson.json') // Usa este nombre SOLO si tu archivo realmente se llama así
-  .then(response => response.json())
-  .then(data => {
-    datosGlobales = data;
-    mostrarDatosEnTabla(data);
-  })
-  .catch(error => {
-    console.error('Error al cargar csvjson.json:', error);
-    alert('No se pudo cargar el archivo JSON. Usa un servidor local.');
-  });
+window.onload = function () {
+  // Cargar datos al iniciar
+  fetch('csvjson.json')
+    .then(response => response.json())
+    .then(data => {
+      datosGlobales = data;
+      mostrarDatosEnTabla(data);
+    })
+    .catch(error => {
+      console.error('Error al cargar csvjson.json:', error);
+      alert('No se pudo cargar el archivo JSON.');
+    });
+};
 
 function mostrarDatosEnTabla(datos) {
   const tbody = document.querySelector('#tabla-datos tbody');
+  if (!tbody) {
+    console.error("No se encontró la tabla en el DOM.");
+    return;
+  }
+
   tbody.innerHTML = '';
 
   if (datos.length === 0) {
