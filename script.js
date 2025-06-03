@@ -134,7 +134,7 @@ menuLinks.forEach(function(link) {
 function buscarEmpresa() {
   const nombre = document.getElementById("busqueda").value.trim().toUpperCase();
 
-  fetch('datos.json')
+  fetch('csvjson.json')
     .then(response => response.json())
     .then(data => {
       const tbody = document.querySelector('#tabla-datos tbody');
