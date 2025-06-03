@@ -129,3 +129,42 @@ menuLinks.forEach(function(link) {
 
 
 
+// funcion de buscar para el terminal de buses pagina desembarque
+
+
+function buscarEmpresa() {
+  const nombre = document.getElementById("busqueda").value.trim().toUpperCase();
+
+  fetch('datos.json')
+    .then(response => response.json())
+    .then(data => {
+      const empresa = data.find(item => item.Empresa.toUpperCase() === nombre);
+
+      const contenedor = document.getElementById('resultado');
+      contenedor.innerHTML = ''; // Limpiar contenido anterior
+
+      if (empresa) {
+        contenedor.innerHTML = `
+          <table border="1" cellpadding="5">
+            <tr><th>Empresa</th><td>${empresa.Empresa}</td></tr>
+            <tr><th>Origen</th><td>${empresa.Origen}</td></tr>
+            <tr><th>Placa</th><td>${empresa.Placa}</td></tr>
+            <tr><th>Fecha</th><td>${empresa.Fecha}</td></tr>
+            <tr><th>Entrada</th><td>${empresa.Entrada}</td></tr>
+            <tr><th>Salida</th><td>${empresa.Salida}</td></tr>
+          </table>
+        `;
+      } else {
+        contenedor.innerHTML = '<p style="color: red;">Empresa no encontrada.</p>';
+      }
+    })
+    .catch(error => {
+      console.error('Error al cargar el JSON:', error);
+    });
+}
+
+
+
+
+
+
