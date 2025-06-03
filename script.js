@@ -131,75 +131,67 @@ menuLinks.forEach(function(link) {
 
 // funcion de buscar para el terminal de buses pagina desembarque
 
-// Esta variable debe ir AFUERA para ser accesible desde cualquier función
 let datosGlobales = [];
 
 window.onload = function () {
-  // Cargar datos JSON al inicio
+  const inputBusqueda = document.getElementById("busqueda");
+  const btnBuscar = document.getElementById("btnBuscar");
+  const btnMostrar = document.getElementById("btnMostrar");
+  const tbody = document.querySelector('#tabla-datos tbody');
+
+  if (!inputBusqueda || !btnBuscar || !btnMostrar || !tbody) {
+    console.error("No se encontraron elementos del DOM.");
+    return;
+  }
+
+  // Cargar datos al iniciar
   fetch('csvjson.json')
     .then(response => response.json())
     .then(data => {
       datosGlobales = data;
-      mostrarDatosEnTabla(data); // mostrar todo al inicio
+      mostrarDatosEnTabla(data); // Mostrar todo al inicio
     })
     .catch(error => {
       console.error('Error al cargar csvjson.json:', error);
       alert('No se pudo cargar el archivo JSON.');
     });
 
-  // Agregar eventos solo cuando los elementos existen
-  const inputBusqueda = document.getElementById("busqueda");
-  if (inputBusqueda) {
-    inputBusqueda.addEventListener("input", function () {
-      const nombre = inputBusqueda.value.trim().toUpperCase();
-      const coincidencias = datosGlobales.filter(item =>
-        item.Empresa.toUpperCase().includes(nombre)
-      );
-      mostrarDatosEnTabla(coincidencias);
-    });
-  }
+  // Buscar empresa por nombre exacto
+  btnBuscar.addEventListener("click", function () {
+    const nombre = inputBusqueda.value.trim().toUpperCase();
+    const coincidencias = datosGlobales.filter(item =>
+      item.Empresa.toUpperCase() === nombre
+    );
+    mostrarDatosEnTabla(coincidencias);
+  });
+
+  // Mostrar todas las empresas
+  btnMostrar.addEventListener("click", function () {
+    mostrarDatosEnTabla(datosGlobales);
+  });
 };
 
 function mostrarDatosEnTabla(datos) {
   const tbody = document.querySelector('#tabla-datos tbody');
-  if (!tbody) {
-    console.error("No se encontró la tabla en el DOM.");
-    return;
-  }
-
   tbody.innerHTML = '';
 
   if (datos.length === 0) {
     const tr = document.createElement('tr');
-    tr.innerHTML = `<td colspan="6" style="color:red;">No se encontraron datos</td>`;
+    tr.innerHTML = `<td colspan="6" style="color: red;">No se encontraron datos</td>`;
     tbody.appendChild(tr);
     return;
   }
 
-  datos.forEach(fila => {
+  datos.forEach(item => {
     const tr = document.createElement('tr');
     tr.innerHTML = `
-      <td>${fila.Empresa}</td>
-      <td>${fila.Origen}</td>
-      <td>${fila.Placa}</td>
-      <td>${fila.Fecha}</td>
-      <td>${fila.Entrada}</td>
-      <td>${fila.Salida}</td>
+      <td>${item.Empresa}</td>
+      <td>${item.Origen}</td>
+      <td>${item.Placa}</td>
+      <td>${item.Fecha}</td>
+      <td>${item.Entrada}</td>
+      <td>${item.Salida}</td>
     `;
     tbody.appendChild(tr);
   });
-}
-
-// Botón buscar
-function buscarEmpresa() {
-  const nombre = document.getElementById("busqueda").value.trim().toUpperCase();
-  const coincidencias = datosGlobales.filter(item =>
-    item.Empresa.toUpperCase() === nombre
-  );
-  mostrarDatosEnTabla(coincidencias);
-}
-
-// Botón mostrar todas
-function mostrarTodas() {
-  mostrarDatosEnTabla(datosGlobales);
 }
