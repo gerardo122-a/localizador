@@ -131,38 +131,49 @@ menuLinks.forEach(function(link) {
 
 // funcion de buscar para el terminal de buses pagina desembarque
 
-function buscarEmpresa() {
-  const nombre = document.getElementById("busqueda").value.trim().toUpperCase();
+let datosGlobales = [];
 
-  fetch('csvjson.json')
-    .then(response => response.json())
-    .then(data => {
+    // Cargar todos los datos al inicio
+    fetch('datos.json')
+      .then(response => response.json())
+      .then(data => {
+        datosGlobales = data;
+        mostrarDatosEnTabla(data);
+      })
+      .catch(error => {
+        console.error('Error al cargar datos.json:', error);
+        alert('No se pudo cargar datos.json. Usa un servidor local.');
+      });
+
+    function mostrarDatosEnTabla(datos) {
       const tbody = document.querySelector('#tabla-datos tbody');
-      tbody.innerHTML = ''; // Limpiar la tabla anterior
-
-      const coincidencias = data.filter(item => item.Empresa.toUpperCase() === nombre);
-
-      if (coincidencias.length > 0) {
-        coincidencias.forEach(fila => {
-          const tr = document.createElement('tr');
-          tr.innerHTML = `
-            <td>${fila.Empresa}</td>
-            <td>${fila.Origen}</td>
-            <td>${fila.Placa}</td>
-            <td>${fila.Fecha}</td>
-            <td>${fila.Entrada}</td>
-            <td>${fila.Salida}</td>
-          `;
-          tbody.appendChild(tr);
-        });
-      } else {
+      tbody.innerHTML = '';
+      if (datos.length === 0) {
         const tr = document.createElement('tr');
-        tr.innerHTML = `<td colspan="6" style="color:red;">Empresa no encontrada</td>`;
+        tr.innerHTML = `<td colspan="6" style="color:red;">No se encontraron datos</td>`;
         tbody.appendChild(tr);
+        return;
       }
-    })
-    .catch(error => {
-      console.error('Error al cargar el JSON:', error);
-    });
-}
+      datos.forEach(fila => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${fila.Empresa}</td>
+          <td>${fila.Origen}</td>
+          <td>${fila.Placa}</td>
+          <td>${fila.Fecha}</td>
+          <td>${fila.Entrada}</td>
+          <td>${fila.Salida}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
 
+    function buscarEmpresa() {
+      const nombre = document.getElementById("busqueda").value.trim().toUpperCase();
+      const coincidencias = datosGlobales.filter(item => item.Empresa.toUpperCase() === nombre);
+      mostrarDatosEnTabla(coincidencias);
+    }
+
+    function mostrarTodas() {
+      mostrarDatosEnTabla(datosGlobales);
+    }
