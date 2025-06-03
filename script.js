@@ -134,7 +134,7 @@ menuLinks.forEach(function(link) {
 let datosGlobales = [];
 
     // Cargar todos los datos al inicio
-    fetch('datos.json')
+    fetch('csvjson.json')
       .then(response => response.json())
       .then(data => {
         datosGlobales = data;
