@@ -131,16 +131,16 @@ menuLinks.forEach(function(link) {
 
 // funcion de buscar para el terminal de buses pagina desembarque
 
-
+// Esta variable debe ir AFUERA para ser accesible desde cualquier función
 let datosGlobales = [];
 
 window.onload = function () {
-  // Cargar datos al iniciar
+  // Cargar datos JSON al iniciar
   fetch('csvjson.json')
     .then(response => response.json())
     .then(data => {
       datosGlobales = data;
-      mostrarDatosEnTabla(data);
+      mostrarDatosEnTabla(data); // mostrar todos al inicio
     })
     .catch(error => {
       console.error('Error al cargar csvjson.json:', error);
@@ -187,4 +187,3 @@ function buscarEmpresa() {
 function mostrarTodas() {
   mostrarDatosEnTabla(datosGlobales);
 }
-
