@@ -25,8 +25,6 @@
   <button id="btnBuscar">Buscar</button>
   <button id="btnMostrar">Mostrar todas</button>
 
-  <div id="resultado"></div>
-
   <h2>Datos desde JSON</h2>
   <table id="tabla-datos">
     <thead>
@@ -42,6 +40,72 @@
     <tbody></tbody>
   </table>
 
-  <script src="script.js"></script>
+  <script>
+    let datosGlobales = [];
+
+    window.onload = function () {
+      const inputBusqueda = document.getElementById("busqueda");
+      const btnBuscar = document.getElementById("btnBuscar");
+      const btnMostrar = document.getElementById("btnMostrar");
+      const tbody = document.querySelector('#tabla-datos tbody');
+
+      if (!inputBusqueda || !btnBuscar || !btnMostrar || !tbody) {
+        console.error("No se encontraron elementos del DOM.");
+        return;
+      }
+
+      // Cargar los datos JSON al iniciar
+      fetch('csvjson.json')
+        .then(response => response.json())
+        .then(data => {
+          datosGlobales = data;
+          mostrarDatosEnTabla(data); // Mostrar todos al inicio
+        })
+        .catch(error => {
+          console.error('Error al cargar csvjson.json:', error);
+          alert('No se pudo cargar el archivo JSON.');
+        });
+
+      // Buscar empresa por nombre exacto
+      btnBuscar.addEventListener("click", function () {
+        const nombre = inputBusqueda.value.trim().toUpperCase();
+        const coincidencias = datosGlobales.filter(item =>
+          item.Empresa.toUpperCase() === nombre
+        );
+        mostrarDatosEnTabla(coincidencias);
+      });
+
+      // Mostrar todos los registros
+      btnMostrar.addEventListener("click", function () {
+        mostrarDatosEnTabla(datosGlobales);
+      });
+    };
+
+    function mostrarDatosEnTabla(datos) {
+      const tbody = document.querySelector('#tabla-datos tbody');
+      tbody.innerHTML = '';
+
+      if (datos.length === 0) {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td colspan="6" style="color:red;">No se encontraron datos</td>`;
+        tbody.appendChild(tr);
+        return;
+      }
+
+      datos.forEach(item => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${item.Empresa}</td>
+          <td>${item.Origen}</td>
+          <td>${item.Placa}</td>
+          <td>${item.Fecha}</td>
+          <td>${item.Entrada}</td>
+          <td>${item.Salida}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+  </script>
 </body>
 </html>
+
