@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Tabla desde JSON</title>
+  <title>Buscar Empresa y Mostrar Datos</title>
   <style>
     table {
       border-collapse: collapse;
@@ -23,7 +23,9 @@
   <h1>Buscar Empresa</h1>
   <input type="text" id="busqueda" placeholder="Escribe el nombre de la empresa">
   <button id="btnBuscar">Buscar</button>
-  <button id="btnMostrar">Mostrar todas</button>
+  <button id="btnMostrarTodas">Mostrar todas</button>
+
+  <div id="resultado"></div>
 
   <h2>Datos desde JSON</h2>
   <table id="tabla-datos">
@@ -40,72 +42,77 @@
     <tbody></tbody>
   </table>
 
-  <script>
-    let datosGlobales = [];
+<script>
+  // Variable global para almacenar los datos
+  let datosGlobales = [];
 
-    window.onload = function () {
-      const inputBusqueda = document.getElementById("busqueda");
-      const btnBuscar = document.getElementById("btnBuscar");
-      const btnMostrar = document.getElementById("btnMostrar");
-      const tbody = document.querySelector('#tabla-datos tbody');
+  // Cargar datos desde JSON al iniciar
+  fetch('csvjson.json')
+    .then(response => response.json())
+    .then(data => {
+      datosGlobales = data;
+      mostrarDatosEnTabla(datosGlobales);
+    })
+    .catch(error => {
+      console.error('Error al cargar csvjson.json:', error);
+      alert('No se pudo cargar csvjson.json. Asegúrate de usar un servidor local o que el archivo esté en la ruta correcta.');
+    });
 
-      if (!inputBusqueda || !btnBuscar || !btnMostrar || !tbody) {
-        console.error("No se encontraron elementos del DOM.");
-        return;
-      }
+  // Función para mostrar datos en la tabla
+  function mostrarDatosEnTabla(datos) {
+    const tbody = document.querySelector('#tabla-datos tbody');
+    tbody.innerHTML = ''; // Limpiar tabla
 
-      // Cargar los datos JSON al iniciar
-      fetch('csvjson.json')
-        .then(response => response.json())
-        .then(data => {
-          datosGlobales = data;
-          mostrarDatosEnTabla(data); // Mostrar todos al inicio
-        })
-        .catch(error => {
-          console.error('Error al cargar csvjson.json:', error);
-          alert('No se pudo cargar el archivo JSON.');
-        });
-
-      // Buscar empresa por nombre exacto
-      btnBuscar.addEventListener("click", function () {
-        const nombre = inputBusqueda.value.trim().toUpperCase();
-        const coincidencias = datosGlobales.filter(item =>
-          item.Empresa.toUpperCase() === nombre
-        );
-        mostrarDatosEnTabla(coincidencias);
-      });
-
-      // Mostrar todos los registros
-      btnMostrar.addEventListener("click", function () {
-        mostrarDatosEnTabla(datosGlobales);
-      });
-    };
-
-    function mostrarDatosEnTabla(datos) {
-      const tbody = document.querySelector('#tabla-datos tbody');
-      tbody.innerHTML = '';
-
-      if (datos.length === 0) {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `<td colspan="6" style="color:red;">No se encontraron datos</td>`;
-        tbody.appendChild(tr);
-        return;
-      }
-
-      datos.forEach(item => {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td>${item.Empresa}</td>
-          <td>${item.Origen}</td>
-          <td>${item.Placa}</td>
-          <td>${item.Fecha}</td>
-          <td>${item.Entrada}</td>
-          <td>${item.Salida}</td>
-        `;
-        tbody.appendChild(tr);
-      });
+    if(datos.length === 0){
+      tbody.innerHTML = `<tr><td colspan="6" style="color: red;">No se encontraron registros.</td></tr>`;
+      return;
     }
-  </script>
+
+    datos.forEach(item => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${item.Empresa || ''}</td>
+        <td>${item.Origen || ''}</td>
+        <td>${item.Placa || ''}</td>
+        <td>${item.Fecha || ''}</td>
+        <td>${item.Entrada || ''}</td>
+        <td>${item.Salida || ''}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  // Botones y campo de búsqueda
+  const btnBuscar = document.getElementById('btnBuscar');
+  const btnMostrarTodas = document.getElementById('btnMostrarTodas');
+  const inputBusqueda = document.getElementById('busqueda');
+  const contenedorResultado = document.getElementById('resultado');
+
+  // Evento para buscar empresa
+  btnBuscar.addEventListener('click', () => {
+    const nombre = inputBusqueda.value.trim().toUpperCase();
+
+    const coincidencias = datosGlobales.filter(item =>
+      String(item.Empresa || '').trim().toUpperCase().includes(nombre)
+    );
+
+    if (coincidencias.length > 0) {
+      contenedorResultado.innerHTML = ''; // Limpiar mensajes
+      mostrarDatosEnTabla(coincidencias);
+    } else {
+      contenedorResultado.innerHTML = '<p style="color: red;">Empresa no encontrada.</p>';
+      // Limpiar tabla si quieres:
+      mostrarDatosEnTabla([]);
+    }
+  });
+
+  // Evento para mostrar todas las empresas
+  btnMostrarTodas.addEventListener('click', () => {
+    contenedorResultado.innerHTML = '';
+    mostrarDatosEnTabla(datosGlobales);
+    inputBusqueda.value = '';
+  });
+</script>
+
 </body>
 </html>
-
