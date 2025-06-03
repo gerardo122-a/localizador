@@ -138,22 +138,44 @@ function buscarEmpresa() {
   fetch('csvjson.json')
     .then(response => response.json())
     .then(data => {
-      const empresa = data.find(item => item.Empresa.toUpperCase() === nombre);
+      // Buscar todas las coincidencias
+      const coincidencias = data.filter(item => item.Empresa.toUpperCase() === nombre);
 
       const contenedor = document.getElementById('resultado');
       contenedor.innerHTML = ''; // Limpiar contenido anterior
 
-      if (empresa) {
-        contenedor.innerHTML = `
+      if (coincidencias.length > 0) {
+        // Crear tabla con todas las coincidencias
+        let tablaHTML = `
           <table border="1" cellpadding="5">
-            <tr><th>Empresa</th><td>${empresa.Empresa}</td></tr>
-            <tr><th>Origen</th><td>${empresa.Origen}</td></tr>
-            <tr><th>Placa</th><td>${empresa.Placa}</td></tr>
-            <tr><th>Fecha</th><td>${empresa.Fecha}</td></tr>
-            <tr><th>Entrada</th><td>${empresa.Entrada}</td></tr>
-            <tr><th>Salida</th><td>${empresa.Salida}</td></tr>
-          </table>
+            <thead>
+              <tr>
+                <th>Empresa</th>
+                <th>Origen</th>
+                <th>Placa</th>
+                <th>Fecha</th>
+                <th>Entrada</th>
+                <th>Salida</th>
+              </tr>
+            </thead>
+            <tbody>
         `;
+
+        coincidencias.forEach(item => {
+          tablaHTML += `
+            <tr>
+              <td>${item.Empresa}</td>
+              <td>${item.Origen}</td>
+              <td>${item.Placa}</td>
+              <td>${item.Fecha}</td>
+              <td>${item.Entrada}</td>
+              <td>${item.Salida}</td>
+            </tr>
+          `;
+        });
+
+        tablaHTML += `</tbody></table>`;
+        contenedor.innerHTML = tablaHTML;
       } else {
         contenedor.innerHTML = '<p style="color: red;">Empresa no encontrada.</p>';
       }
@@ -162,9 +184,6 @@ function buscarEmpresa() {
       console.error('Error al cargar el JSON:', error);
     });
 }
-
-
-
 
 
 
