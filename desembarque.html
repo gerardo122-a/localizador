@@ -2,19 +2,6 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-
-  <h1>Buscar Empresa</h1>
-
-  <input type="text" id="busqueda" placeholder="Escribe el nombre de la empresa">
-  <button onclick="buscarEmpresa()">Buscar</button>
-
-  <div id="resultado"></div>
-
-  <script src="script.js"></script>
-
-
-
-  
   <title>Tabla desde JSON</title>
   <style>
     table {
@@ -35,8 +22,12 @@
 </head>
 <body>
 
-  <h2>Datos desde JSON</h2>
+  <h1>Buscar Empresa</h1>
+  <input type="text" id="busqueda" placeholder="Escribe el nombre de la empresa">
+  <button onclick="buscarEmpresa()">Buscar</button>
+  <button onclick="mostrarTodas()">Mostrar todas</button>
 
+  <h2>Datos desde JSON</h2>
   <table id="tabla-datos">
     <thead>
       <tr>
@@ -51,30 +42,7 @@
     <tbody></tbody>
   </table>
 
-  <script>
-    fetch('csvjson.json')
-      .then(response => response.json())
-      .then(data => {
-        const tbody = document.querySelector('#tabla-datos tbody');
-
-        data.forEach(fila => {
-          const tr = document.createElement('tr');
-          tr.innerHTML = `
-            <td>${fila.Empresa}</td>
-            <td>${fila.Origen}</td>
-            <td>${fila.Placa}</td>
-            <td>${fila.Fecha}</td>
-            <td>${fila.Entrada}</td>
-            <td>${fila.Salida}</td>
-          `;
-          tbody.appendChild(tr);
-        });
-      })
-      .catch(error => {
-        console.error('Error al cargar el archivo JSON:', error);
-        alert('No se pudo cargar csvjson.json. Asegúrate de usar un servidor local.');
-      });
-  </script>
+  <script src="script.js"></script>
 
 </body>
 </html>
