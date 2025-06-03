@@ -135,17 +135,29 @@ menuLinks.forEach(function(link) {
 let datosGlobales = [];
 
 window.onload = function () {
-  // Cargar datos JSON al iniciar
+  // Cargar datos JSON al inicio
   fetch('csvjson.json')
     .then(response => response.json())
     .then(data => {
       datosGlobales = data;
-      mostrarDatosEnTabla(data); // mostrar todos al inicio
+      mostrarDatosEnTabla(data); // mostrar todo al inicio
     })
     .catch(error => {
       console.error('Error al cargar csvjson.json:', error);
       alert('No se pudo cargar el archivo JSON.');
     });
+
+  // Agregar eventos solo cuando los elementos existen
+  const inputBusqueda = document.getElementById("busqueda");
+  if (inputBusqueda) {
+    inputBusqueda.addEventListener("input", function () {
+      const nombre = inputBusqueda.value.trim().toUpperCase();
+      const coincidencias = datosGlobales.filter(item =>
+        item.Empresa.toUpperCase().includes(nombre)
+      );
+      mostrarDatosEnTabla(coincidencias);
+    });
+  }
 };
 
 function mostrarDatosEnTabla(datos) {
@@ -178,12 +190,16 @@ function mostrarDatosEnTabla(datos) {
   });
 }
 
+// Botón buscar
 function buscarEmpresa() {
   const nombre = document.getElementById("busqueda").value.trim().toUpperCase();
-  const coincidencias = datosGlobales.filter(item => item.Empresa.toUpperCase() === nombre);
+  const coincidencias = datosGlobales.filter(item =>
+    item.Empresa.toUpperCase() === nombre
+  );
   mostrarDatosEnTabla(coincidencias);
 }
 
+// Botón mostrar todas
 function mostrarTodas() {
   mostrarDatosEnTabla(datosGlobales);
 }
