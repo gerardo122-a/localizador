@@ -44,25 +44,24 @@
   </table>
 
 <script>
-  // Variable global para almacenar los datos
   let datosGlobales = [];
+  let datosFiltrados = [];
 
-  // Cargar datos desde JSON al iniciar
   fetch('csvjson.json')
     .then(response => response.json())
     .then(data => {
       datosGlobales = data;
-      mostrarDatosEnTabla(datosGlobales);
+      datosFiltrados = [...datosGlobales]; // inicializar
+      mostrarDatosEnTabla(datosFiltrados);
     })
     .catch(error => {
       console.error('Error al cargar csvjson.json:', error);
-      alert('No se pudo cargar csvjson.json. Asegúrate de usar un servidor local o que el archivo esté en la ruta correcta.');
+      alert('No se pudo cargar csvjson.json.');
     });
 
-  // Función para mostrar datos en la tabla
   function mostrarDatosEnTabla(datos) {
     const tbody = document.querySelector('#tabla-datos tbody');
-    tbody.innerHTML = ''; // Limpiar tabla
+    tbody.innerHTML = '';
 
     if(datos.length === 0){
       tbody.innerHTML = `<tr><td colspan="6" style="color: red;">No se encontraron registros.</td></tr>`;
@@ -83,83 +82,67 @@
     });
   }
 
-  // Función para convertir "HH:MM" o "HH:MM:SS" a minutos o segundos para ordenar
   function parseHora(horaStr) {
     if (!horaStr) return 0;
     const partes = horaStr.split(':').map(Number);
-    if (partes.length === 2) {
-      return partes[0] * 60 + partes[1]; // minutos totales
-    } else if (partes.length === 3) {
-      return partes[0] * 3600 + partes[1] * 60 + partes[2]; // segundos totales
-    }
+    if (partes.length === 2) return partes[0] * 60 + partes[1];
+    if (partes.length === 3) return partes[0] * 3600 + partes[1] * 60 + partes[2];
     return 0;
   }
 
-  // Botones y campo de búsqueda
   const btnBuscar = document.getElementById('btnBuscar');
   const btnMostrarTodas = document.getElementById('btnMostrarTodas');
   const inputBusqueda = document.getElementById('busqueda');
   const contenedorResultado = document.getElementById('resultado');
 
-  // Evento para buscar empresa
   btnBuscar.addEventListener('click', () => {
     const nombre = inputBusqueda.value.trim().toUpperCase();
 
-    let coincidencias = datosGlobales.filter(item =>
+    datosFiltrados = datosGlobales.filter(item =>
       String(item.Empresa || '').trim().toUpperCase().includes(nombre)
     );
 
-    // Ordenar coincidencias por hora de Entrada (de menor a mayor)
-    coincidencias.sort((a, b) => {
-      const horaA = parseHora(a.Entrada);
-      const horaB = parseHora(b.Entrada);
-      return horaA - horaB;
-    });
+    datosFiltrados.sort((a, b) => parseHora(a.Entrada) - parseHora(b.Entrada));
 
-    if (coincidencias.length > 0) {
-      contenedorResultado.innerHTML = ''; // Limpiar mensajes
-      mostrarDatosEnTabla(coincidencias);
+    if (datosFiltrados.length > 0) {
+      contenedorResultado.innerHTML = '';
+      mostrarDatosEnTabla(datosFiltrados);
     } else {
       contenedorResultado.innerHTML = '<p style="color: red;">Empresa no encontrada.</p>';
       mostrarDatosEnTabla([]);
     }
   });
 
-  // Evento para mostrar todas las empresas
   btnMostrarTodas.addEventListener('click', () => {
     contenedorResultado.innerHTML = '';
-    mostrarDatosEnTabla(datosGlobales);
     inputBusqueda.value = '';
+    datosFiltrados = [...datosGlobales];
+    mostrarDatosEnTabla(datosFiltrados);
   });
 
-  // Ordenar columnas Entrada y Salida al hacer click en encabezado (opcional)
   let ordenEntradaAsc = false;
   let ordenSalidaAsc = false;
 
-  const thEntrada = document.getElementById('thEntrada');
-  const thSalida = document.getElementById('thSalida');
-
-  thEntrada.addEventListener('click', () => {
+  document.getElementById('thEntrada').addEventListener('click', () => {
     ordenEntradaAsc = !ordenEntradaAsc;
-    datosGlobales.sort((a, b) => {
+    datosFiltrados.sort((a, b) => {
       const horaA = parseHora(a.Entrada);
       const horaB = parseHora(b.Entrada);
       return ordenEntradaAsc ? horaA - horaB : horaB - horaA;
     });
-    mostrarDatosEnTabla(datosGlobales);
+    mostrarDatosEnTabla(datosFiltrados);
   });
 
-  thSalida.addEventListener('click', () => {
+  document.getElementById('thSalida').addEventListener('click', () => {
     ordenSalidaAsc = !ordenSalidaAsc;
-    datosGlobales.sort((a, b) => {
+    datosFiltrados.sort((a, b) => {
       const horaA = parseHora(a.Salida);
       const horaB = parseHora(b.Salida);
       return ordenSalidaAsc ? horaA - horaB : horaB - horaA;
     });
-    mostrarDatosEnTabla(datosGlobales);
+    mostrarDatosEnTabla(datosFiltrados);
   });
 </script>
 
 </body>
 </html>
-
