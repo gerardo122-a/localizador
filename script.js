@@ -131,59 +131,38 @@ menuLinks.forEach(function(link) {
 
 // funcion de buscar para el terminal de buses pagina desembarque
 
-
 function buscarEmpresa() {
   const nombre = document.getElementById("busqueda").value.trim().toUpperCase();
 
-  fetch('csvjson.json')
+  fetch('datos.json')
     .then(response => response.json())
     .then(data => {
-      // Buscar todas las coincidencias
+      const tbody = document.querySelector('#tabla-datos tbody');
+      tbody.innerHTML = ''; // Limpiar la tabla anterior
+
       const coincidencias = data.filter(item => item.Empresa.toUpperCase() === nombre);
 
-      const contenedor = document.getElementById('resultado');
-      contenedor.innerHTML = ''; // Limpiar contenido anterior
-
       if (coincidencias.length > 0) {
-        // Crear tabla con todas las coincidencias
-        let tablaHTML = `
-          <table border="1" cellpadding="5">
-            <thead>
-              <tr>
-                <th>Empresa</th>
-                <th>Origen</th>
-                <th>Placa</th>
-                <th>Fecha</th>
-                <th>Entrada</th>
-                <th>Salida</th>
-              </tr>
-            </thead>
-            <tbody>
-        `;
-
-        coincidencias.forEach(item => {
-          tablaHTML += `
-            <tr>
-              <td>${item.Empresa}</td>
-              <td>${item.Origen}</td>
-              <td>${item.Placa}</td>
-              <td>${item.Fecha}</td>
-              <td>${item.Entrada}</td>
-              <td>${item.Salida}</td>
-            </tr>
+        coincidencias.forEach(fila => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${fila.Empresa}</td>
+            <td>${fila.Origen}</td>
+            <td>${fila.Placa}</td>
+            <td>${fila.Fecha}</td>
+            <td>${fila.Entrada}</td>
+            <td>${fila.Salida}</td>
           `;
+          tbody.appendChild(tr);
         });
-
-        tablaHTML += `</tbody></table>`;
-        contenedor.innerHTML = tablaHTML;
       } else {
-        contenedor.innerHTML = '<p style="color: red;">Empresa no encontrada.</p>';
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td colspan="6" style="color:red;">Empresa no encontrada</td>`;
+        tbody.appendChild(tr);
       }
     })
     .catch(error => {
       console.error('Error al cargar el JSON:', error);
     });
 }
-
-
 
