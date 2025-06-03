@@ -15,7 +15,7 @@
     }
     th {
       background-color: #f2f2f2;
-      cursor: default; /* cursor pointer se asignará dinámicamente a columnas clicables */
+      cursor: pointer;
     }
   </style>
 </head>
@@ -36,8 +36,8 @@
         <th>Origen</th>
         <th>Placa</th>
         <th>Fecha</th>
-        <th>Entrada</th>
-        <th>Salida</th>
+        <th id="thEntrada">Entrada</th>
+        <th id="thSalida">Salida</th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -47,17 +47,12 @@
   // Variable global para almacenar los datos
   let datosGlobales = [];
 
-  // Estado de orden para columnas Entrada y Salida
-  let ordenEntradaAsc = false;
-  let ordenSalidaAsc = false;
-
   // Cargar datos desde JSON al iniciar
   fetch('csvjson.json')
     .then(response => response.json())
     .then(data => {
       datosGlobales = data;
       mostrarDatosEnTabla(datosGlobales);
-      agregarEventosOrden();
     })
     .catch(error => {
       console.error('Error al cargar csvjson.json:', error);
@@ -88,7 +83,19 @@
     });
   }
 
-  // Referencias a botones y campo de búsqueda
+  // Función para convertir "HH:MM" o "HH:MM:SS" a minutos o segundos para ordenar
+  function parseHora(horaStr) {
+    if (!horaStr) return 0;
+    const partes = horaStr.split(':').map(Number);
+    if (partes.length === 2) {
+      return partes[0] * 60 + partes[1]; // minutos totales
+    } else if (partes.length === 3) {
+      return partes[0] * 3600 + partes[1] * 60 + partes[2]; // segundos totales
+    }
+    return 0;
+  }
+
+  // Botones y campo de búsqueda
   const btnBuscar = document.getElementById('btnBuscar');
   const btnMostrarTodas = document.getElementById('btnMostrarTodas');
   const inputBusqueda = document.getElementById('busqueda');
@@ -98,10 +105,16 @@
   btnBuscar.addEventListener('click', () => {
     const nombre = inputBusqueda.value.trim().toUpperCase();
 
-    // Filtrar usando includes para coincidencias parciales
-    const coincidencias = datosGlobales.filter(item =>
+    let coincidencias = datosGlobales.filter(item =>
       String(item.Empresa || '').trim().toUpperCase().includes(nombre)
     );
+
+    // Ordenar coincidencias por hora de Entrada (de menor a mayor)
+    coincidencias.sort((a, b) => {
+      const horaA = parseHora(a.Entrada);
+      const horaB = parseHora(b.Entrada);
+      return horaA - horaB;
+    });
 
     if (coincidencias.length > 0) {
       contenedorResultado.innerHTML = ''; // Limpiar mensajes
@@ -119,47 +132,34 @@
     inputBusqueda.value = '';
   });
 
-  // Agregar eventos de ordenamiento a columnas Entrada y Salida
-  function agregarEventosOrden() {
-    const thEntrada = document.querySelector('th:nth-child(5)'); // columna Entrada
-    const thSalida = document.querySelector('th:nth-child(6)');   // columna Salida
+  // Ordenar columnas Entrada y Salida al hacer click en encabezado (opcional)
+  let ordenEntradaAsc = false;
+  let ordenSalidaAsc = false;
 
-    thEntrada.style.cursor = 'pointer';
-    thSalida.style.cursor = 'pointer';
+  const thEntrada = document.getElementById('thEntrada');
+  const thSalida = document.getElementById('thSalida');
 
-    thEntrada.addEventListener('click', () => {
-      ordenEntradaAsc = !ordenEntradaAsc; // alterna entre asc y desc
-      datosGlobales.sort((a, b) => {
-        const horaA = parseHora(a.Entrada);
-        const horaB = parseHora(b.Entrada);
-        return ordenEntradaAsc ? horaA - horaB : horaB - horaA;
-      });
-      mostrarDatosEnTabla(datosGlobales);
+  thEntrada.addEventListener('click', () => {
+    ordenEntradaAsc = !ordenEntradaAsc;
+    datosGlobales.sort((a, b) => {
+      const horaA = parseHora(a.Entrada);
+      const horaB = parseHora(b.Entrada);
+      return ordenEntradaAsc ? horaA - horaB : horaB - horaA;
     });
+    mostrarDatosEnTabla(datosGlobales);
+  });
 
-    thSalida.addEventListener('click', () => {
-      ordenSalidaAsc = !ordenSalidaAsc;
-      datosGlobales.sort((a, b) => {
-        const horaA = parseHora(a.Salida);
-        const horaB = parseHora(b.Salida);
-        return ordenSalidaAsc ? horaA - horaB : horaB - horaA;
-      });
-      mostrarDatosEnTabla(datosGlobales);
+  thSalida.addEventListener('click', () => {
+    ordenSalidaAsc = !ordenSalidaAsc;
+    datosGlobales.sort((a, b) => {
+      const horaA = parseHora(a.Salida);
+      const horaB = parseHora(b.Salida);
+      return ordenSalidaAsc ? horaA - horaB : horaB - horaA;
     });
-  }
-
-  // Función para convertir "HH:MM" o "HH:MM:SS" a minutos o segundos para ordenar
-  function parseHora(horaStr) {
-    if (!horaStr) return 0;
-    const partes = horaStr.split(':').map(Number);
-    if (partes.length === 2) {
-      return partes[0] * 60 + partes[1]; // minutos totales
-    } else if (partes.length === 3) {
-      return partes[0] * 3600 + partes[1] * 60 + partes[2]; // segundos totales
-    }
-    return 0;
-  }
+    mostrarDatosEnTabla(datosGlobales);
+  });
 </script>
 
 </body>
 </html>
+
